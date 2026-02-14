@@ -4,3 +4,7 @@ click
 Sphinx
 sphinx_rtd_theme
 scikit-learn
+numpy
+seaborn
+shap
+matplotlib

@@ -1,0 +1,1712 @@
+patientunitstayid,age,gender,ethnicity,admissionheight,hospitaladmitsource,hospitaladmitoffset,diagnosis
+143870,76,Male,Caucasian,167,Operating Room,-1,cardiovascular
+145427,61,Male,Caucasian,177.8,Emergency Department,-10,infectious diseases
+151179,59,Female,Caucasian,149.9,Emergency Department,-1,cardiovascular
+151867,44,Male,Caucasian,172.7,Operating Room,-252,gastrointestinal
+151900,66,Female,Caucasian,165.1,Emergency Department,-23,pulmonary
+152954,41,Female,Caucasian,170.2,Emergency Department,0,cardiovascular
+153972,63,Male,Caucasian,172.7,Emergency Department,-36,gastrointestinal
+155961,57,Female,Caucasian,157.5,Operating Room,-8,pulmonary
+157016,23,Female,Caucasian,162.6,Floor,-3331,gastrointestinal
+157427,73,Male,Caucasian,180.3,Emergency Department,0,cardiovascular
+158056,39,Male,Caucasian,193,Floor,-1117,pulmonary
+159411,20,Female,Caucasian,162.6,Emergency Department,-202,toxicology
+161763,18,Female,Caucasian,162.6,Emergency Department,-9,toxicology
+162502,83,Male,Caucasian,180.3,Direct Admit,-2,cardiovascular
+162841,84,Female,Caucasian,160,Emergency Department,-3933,cardiovascular
+162842,84,Female,Caucasian,160,Emergency Department,-390,cardiovascular
+163137,47,Female,Caucasian,177.8,Other Hospital,-2,neurologic
+163524,38,Female,Caucasian,162.6,Emergency Department,-14,toxicology
+165173,61,Male,Caucasian,185.4,Emergency Department,-98,cardiovascular
+165929,87,Female,Caucasian,167.6,Operating Room,-1293,gastrointestinal
+166853,68,Male,Caucasian,172.7,Emergency Department,-17,neurologic
+167093,17,Female,Caucasian,167.6,Emergency Department,-330,toxicology
+167186,89,Female,Caucasian,144.8,Direct Admit,-984,cardiovascular
+172015,48,Female,Caucasian,177.8,unknown,-2656,other
+172678,74,Female,Caucasian,152.6,ICU to SDU,-516,cardiovascular
+174608,16,Female,Caucasian,167.6,Emergency Department,-188,toxicology
+175243,67,Male,Asian,167.6,unknown,-2,gastrointestinal
+175399,68,Male,Caucasian,172.7,Emergency Department,0,other
+176050,56,Male,Caucasian,188,Direct Admit,-1,cardiovascular
+177689,63,Female,Caucasian,,Emergency Department,26,pulmonary
+178858,61,Female,Caucasian,154.9,Operating Room,-4,gastrointestinal
+184757,81,Female,Caucasian,162.6,Emergency Department,-18989,gastrointestinal
+186069,78,Female,Caucasian,160,Emergency Department,-164,cardiovascular
+186393,> 89,Female,Caucasian,152.4,Operating Room,-6012,gastrointestinal
+187150,46,Female,Caucasian,167.6,Emergency Department,-1,neurologic
+190446,60,Female,Caucasian,162.6,Emergency Department,-10,cardiovascular
+192233,55,Female,Caucasian,162.6,Operating Room,-5,neurologic
+193665,54,Female,Caucasian,165.1,Emergency Department,-42,cardiovascular
+195105,17,Male,Caucasian,193,Emergency Department,-220,toxicology
+197617,69,Female,Caucasian,160,Operating Room,-5645,pulmonary
+197620,69,Female,Caucasian,160,Operating Room,-6,pulmonary
+197921,67,Female,Caucasian,157,Emergency Department,-27,cardiovascular
+198627,47,Female,Caucasian,167.6,Floor,-1021,pulmonary
+202294,62,Female,Caucasian,154.9,Emergency Department,-3,toxicology
+202707,78,Female,Caucasian,157.5,Direct Admit,0,burns/trauma
+203101,50,Female,African American,162.6,Emergency Department,-13,neurologic
+203970,44,Male,Caucasian,167.6,Floor,-2362,neurologic
+204602,29,Female,Caucasian,162.6,Floor,-4854,cardiovascular
+204935,83,Female,Caucasian,162.6,Floor,-2156,cardiovascular
+205061,78,Male,Caucasian,172.7,Other Hospital,-7,gastrointestinal
+205928,56,Female,Caucasian,170.2,Floor,-3257,cardiovascular
+208726,64,Female,Caucasian,154.9,Floor,-23,renal
+209139,62,Male,Caucasian,167.6,Emergency Department,-51,cardiovascular
+211144,67,Female,Caucasian,160,Operating Room,-67,cardiovascular
+211715,53,Female,Caucasian,172.7,Operating Room,-2,pulmonary
+216950,46,Female,African American,154.9,Operating Room,-8554,neurologic
+220469,54,Male,Caucasian,182.9,Emergency Department,509,cardiovascular
+221005,68,Female,Caucasian,162.6,Floor,-2140,cardiovascular
+221131,83,Male,Caucasian,175.3,unknown,0,cardiovascular
+222133,84,Male,Caucasian,175.3,Operating Room,-5,pulmonary
+222408,82,Male,Caucasian,175.3,Emergency Department,-25,pulmonary
+223303,32,Male,Caucasian,172.7,Emergency Department,-5,toxicology
+223539,55,Female,Caucasian,162.6,Operating Room,-13,cardiovascular
+223787,83,Male,Caucasian,170.1,Operating Room,-6676,gastrointestinal
+224606,76,Female,Caucasian,160,Operating Room,-179,cardiovascular
+225206,> 89,Female,Caucasian,152.4,Emergency Department,-55,cardiovascular
+229236,82,Male,Caucasian,170.2,Floor,-5726,pulmonary
+229383,60,Male,Caucasian,179.1,Emergency Department,0,cardiovascular
+230427,73,Male,Asian,152.4,Direct Admit,-71,cardiovascular
+234941,43,Female,African American,162.6,unknown,-4,cardiovascular
+237332,51,Male,Caucasian,182.9,Operating Room,-19,cardiovascular
+239655,> 89,Female,Caucasian,152.4,Emergency Department,-11,gastrointestinal
+242895,80,Male,Caucasian,170.18,Floor,42,cardiovascular
+243999,70,Female,Caucasian,157.5,Floor,-1949,cardiovascular
+244477,55,Female,Caucasian,165.1,Direct Admit,-158,cardiovascular
+244707,74,Male,,182.8,Floor,-6395,infectious diseases
+246997,62,Male,Caucasian,172.7,Emergency Department,-9,pulmonary
+249328,87,Male,Caucasian,170.2,Operating Room,-46,other
+249805,29,Female,Caucasian,172.72,Emergency Department,-406,endocrine
+250574,86,Female,Caucasian,170.2,unknown,-146,endocrine
+250719,60,Male,Caucasian,172.72,Emergency Department,-48,cardiovascular
+250724,50,Female,Caucasian,167.6,Emergency Department,-79,cardiovascular
+251111,83,Female,Caucasian,152.4,Operating Room,-450,gastrointestinal
+257287,70,Male,Caucasian,175.26,Emergency Department,-17,gastrointestinal
+257802,70,Male,Caucasian,180.3,Operating Room,-297,other
+258915,82,,,175,Emergency Department,-142,neurologic
+260468,87,Female,Caucasian,157.5,Emergency Department,-143,pulmonary
+260647,69,Male,Caucasian,177.8,Emergency Department,-38,cardiovascular
+260860,52,Female,Native American,,Emergency Department,-28,cardiovascular
+260961,71,Male,Caucasian,172.7,Emergency Department,-1,gastrointestinal
+261520,78,Male,Caucasian,165.1,Emergency Department,-63,cardiovascular
+262775,48,Male,Native American,170.18,Floor,-89,endocrine
+264276,37,Male,Native American,188,Floor,-2206,pulmonary
+264423,48,Male,Native American,165.1,Emergency Department,-151,renal
+267196,55,Male,Caucasian,182.9,Emergency Department,-2,cardiovascular
+276562,66,Male,Caucasian,182.9,Emergency Department,-29,gastrointestinal
+280350,78,Male,Caucasian,,Direct Admit,69,neurologic
+281132,65,Male,Caucasian,180.3,Emergency Department,0,pulmonary
+282439,81,Male,Caucasian,187.96,Floor,-4020,other
+284517,67,Male,Caucasian,177.8,Emergency Department,0,cardiovascular
+288133,79,Male,Caucasian,170.2,Emergency Department,0,burns/trauma
+289502,62,Female,Caucasian,160,unknown,-155,cardiovascular
+289640,19,Female,Native American,165.1,Emergency Department,-11,toxicology
+290122,67,Male,Caucasian,180.34,Floor,-4516,other
+291628,87,Female,Caucasian,167.6,Emergency Department,-91,cardiovascular
+292154,81,Female,,162.6,Emergency Department,-489,infectious diseases
+294032,61,Male,Caucasian,172.7,unknown,-36,pulmonary
+295916,> 89,Female,Caucasian,154.9,Floor,-4010,cardiovascular
+296926,66,Male,Caucasian,182.9,Operating Room,-262,gastrointestinal
+296927,66,Male,Caucasian,182.9,Operating Room,-11991,gastrointestinal
+299914,74,Male,Caucasian,177.8,unknown,-154,cardiovascular
+300142,69,Male,Caucasian,175.3,Emergency Department,0,infectious diseases
+300385,26,Male,Native American,182.8,Emergency Department,-21,neurologic
+301185,87,Female,,157.4,Direct Admit,-536,infectious diseases
+302668,80,Male,Caucasian,177.8,Floor,-1115,pulmonary
+304631,55,Male,Caucasian,187.96,Emergency Department,-10,cardiovascular
+306247,62,Female,Caucasian,160.02,Emergency Department,-59,cardiovascular
+310446,40,Male,,198.1,Emergency Department,-1374,endocrine
+310783,52,Male,Caucasian,,Emergency Department,-258,cardiovascular
+311043,63,Female,African American,157,Emergency Department,-231,endocrine
+312258,53,Male,Caucasian,172.7,Direct Admit,-31,pulmonary
+312665,54,Female,Caucasian,,Emergency Department,-91,cardiovascular
+313055,53,Male,Caucasian,188,Emergency Department,-262,cardiovascular
+313736,40,Male,Caucasian,198,Emergency Department,-891,endocrine
+314161,25,Male,Caucasian,177.8,Emergency Department,-153,pulmonary
+314184,57,Female,Caucasian,160,Emergency Department,-847,pulmonary
+314889,40,Male,Caucasian,198.1,Emergency Department,-122,endocrine
+316382,37,Male,Caucasian,190.5,Direct Admit,-10,burns/trauma
+316495,21,Female,Caucasian,167.6,Emergency Department,-122,endocrine
+319702,31,Female,Caucasian,155,Emergency Department,-251,burns/trauma
+322290,63,Male,Caucasian,182.9,Floor,-779,pulmonary
+325626,23,Female,Caucasian,165.1,Emergency Department,-326,toxicology
+325924,54,Male,Caucasian,163,Emergency Department,-294,infectious diseases
+326250,40,Male,Caucasian,187.9,Emergency Department,-1026,endocrine
+326251,40,Male,Caucasian,187.9,Emergency Department,-176,endocrine
+326308,75,Female,Caucasian,165.1,Emergency Department,-298,cardiovascular
+327581,85,Female,African American,162.5,Emergency Department,-1215,cardiovascular
+329635,59,Male,Caucasian,170.2,Emergency Department,-388,cardiovascular
+332253,45,Male,Caucasian,182.9,Emergency Department,-185,gastrointestinal
+332296,40,Male,Caucasian,198.1,Emergency Department,-341,endocrine
+332658,43,Male,Caucasian,180.3,Emergency Department,-281,gastrointestinal
+333689,82,Male,Caucasian,167.6,Direct Admit,-168,cardiovascular
+334902,42,Male,,177.8,Emergency Department,-379,gastrointestinal
+335868,72,Female,Caucasian,149.8,unknown,-7,cardiovascular
+336272,67,Female,Caucasian,162.5,Emergency Department,0,cardiovascular
+337621,50,Male,Caucasian,182.9,Emergency Department,-233,gastrointestinal
+341064,53,Female,Caucasian,160,Emergency Department,-254,gastrointestinal
+341322,73,Female,Caucasian,170.2,Emergency Department,-233,pulmonary
+341668,20,Female,Caucasian,160,unknown,-197,renal
+341780,49,Male,Caucasian,123,Direct Admit,-3,cardiovascular
+341781,49,Male,Caucasian,123,Direct Admit,-16988,cardiovascular
+341782,49,Male,Caucasian,123,Direct Admit,-31409,cardiovascular
+342371,21,Male,Caucasian,167.1,Operating Room,-458,gastrointestinal
+342377,58,Female,African American,157.5,Direct Admit,-24169,other
+343093,73,Male,Caucasian,177.8,Direct Admit,-1,pulmonary
+343094,73,Male,Caucasian,177.8,Direct Admit,-75150,pulmonary
+343125,18,Female,Caucasian,152.4,unknown,0,neurologic
+344379,,,,173,Emergency Department,0,cardiovascular
+345142,77,Female,Caucasian,162.6,Other Hospital,0,pulmonary
+346380,73,Female,Caucasian,185.4,unknown,-2771,renal
+346753,32,Female,Caucasian,177.8,Emergency Department,-207,neurologic
+347475,79,Male,Caucasian,176.3,unknown,-1618,cardiovascular
+348873,71,Male,Caucasian,175.3,Emergency Department,-229,cardiovascular
+349322,70,Male,Caucasian,170.2,Emergency Department,-161,cardiovascular
+349481,40,Male,Caucasian,180.3,Emergency Department,-115,toxicology
+350259,88,Male,Caucasian,162.5,Emergency Department,-238,cardiovascular
+350263,58,Male,Caucasian,180.3,unknown,0,pulmonary
+350437,34,Male,Caucasian,175.3,Emergency Department,-19,gastrointestinal
+350551,65,Female,Caucasian,157.5,Direct Admit,0,pulmonary
+351524,39,Male,Caucasian,170.2,Operating Room,-10431,gastrointestinal
+351525,39,Male,Caucasian,170.2,Operating Room,-27717,cardiovascular
+351526,39,Male,Caucasian,170.2,Operating Room,-8117,gastrointestinal
+351717,61,Female,,175.3,unknown,-126,neurologic
+351720,87,Female,Caucasian,162.6,Emergency Department,-234,cardiovascular
+356684,88,Male,Caucasian,162.5,Emergency Department,-36,gastrointestinal
+356949,23,Male,Caucasian,172.7,Emergency Department,-401,endocrine
+357166,41,Male,African American,182.9,Emergency Department,-110,cardiovascular
+361404,53,Female,African American,162.6,Emergency Department,-130,pulmonary
+363006,28,Female,Caucasian,154.9,Emergency Department,-306,neurologic
+365045,45,Male,Caucasian,182.8,Emergency Department,-6,endocrine
+365652,26,Male,Caucasian,170.2,Emergency Department,-191,endocrine
+367912,58,Female,African American,157.5,Emergency Department,-284,gastrointestinal
+368911,25,Male,Caucasian,172,Floor,-470,neurologic
+369237,44,Male,Asian,175.2,Emergency Department,-247,cardiovascular
+370128,,Male,,170.1,unknown,0,pulmonary
+371003,40,Male,Caucasian,195.5,Emergency Department,-411,renal
+372007,26,Male,Caucasian,170.2,Emergency Department,-152,endocrine
+373392,39,Male,Caucasian,167.6,Emergency Department,-127,gastrointestinal
+374770,26,Male,Caucasian,170.2,Emergency Department,-590,endocrine
+375705,40,Male,,195.6,Emergency Department,-282,endocrine
+375725,18,Female,Caucasian,165.1,Emergency Department,-128,toxicology
+375854,42,Male,Caucasian,172.7,Floor,-6509,gastrointestinal
+376041,> 89,Female,Caucasian,162.5,unknown,0,neurologic
+378120,51,Female,African American,157.5,Floor,-897,other
+379119,42,Male,Caucasian,172.7,Floor,-7624,cardiovascular
+379570,30,Female,African American,170.2,Emergency Department,-192,cardiovascular
+380316,39,Female,Caucasian,167.6,Emergency Department,-213,toxicology
+380558,22,Male,Caucasian,165,Emergency Department,-64,pulmonary
+381129,73,Female,Caucasian,162.6,Floor,-2135,cardiovascular
+382892,34,Female,,154.9,unknown,-158,toxicology
+383124,22,Female,Caucasian,172.7,Emergency Department,-8662,cardiovascular
+383358,84,Female,Caucasian,165.1,Direct Admit,-94,pulmonary
+384028,69,Female,Caucasian,162.6,Emergency Department,-268,pulmonary
+384485,82,Female,Caucasian,170.2,Direct Admit,-4,pulmonary
+386342,68,Male,Caucasian,170.1,Emergency Department,-88,pulmonary
+387623,70,Male,Caucasian,162.5,Emergency Department,-365,infectious diseases
+387984,74,Female,Caucasian,160,Emergency Department,-128,neurologic
+389048,,Female,African American,157.5,Emergency Department,-231,gastrointestinal
+389703,72,Female,African American,165.1,Other Hospital,0,pulmonary
+389791,48,Female,Caucasian,,Emergency Department,-96,toxicology
+390956,87,Female,Caucasian,157.5,Floor,-483,cardiovascular
+391704,80,Female,Caucasian,162.6,unknown,-1662,cardiovascular
+392935,27,Male,Caucasian,170.2,Emergency Department,-120,endocrine
+393769,52,Female,African American,162.6,Floor,-772,neurologic
+393867,52,Male,Caucasian,187.9,Floor,-5708,cardiovascular
+394057,48,Male,Caucasian,182.9,unknown,-150,endocrine
+395257,33,Female,Other/Unknown,160,Emergency Department,-23,burns/trauma
+395323,43,Male,Caucasian,177.8,Emergency Department,-233,cardiovascular
+395649,58,Male,Caucasian,180.3,Emergency Department,-185,cardiovascular
+399074,38,Female,African American,170.2,Emergency Department,-69,toxicology
+399365,49,Male,Caucasian,182.9,Emergency Department,-444,endocrine
+399455,27,Female,Caucasian,172.7,Emergency Department,-204,toxicology
+399713,75,Female,Caucasian,152.4,unknown,-88,cardiovascular
+401177,40,Male,Caucasian,198.1,Emergency Department,-74,endocrine
+402604,85,Male,Caucasian,188,Direct Admit,-570,pulmonary
+402918,65,Female,African American,165.1,Emergency Department,-268,cardiovascular
+403279,52,Female,African American,162.5,Emergency Department,-195,infectious diseases
+403605,33,Male,African American,180.3,unknown,0,pulmonary
+404144,40,Male,Caucasian,,Emergency Department,-129,endocrine
+404832,21,Female,Caucasian,,Emergency Department,-228,toxicology
+405340,58,Male,Caucasian,180.3,unknown,-1084,pulmonary
+405746,51,Female,African American,157.5,Floor,-1261,cardiovascular
+408514,49,Male,Caucasian,182.9,Direct Admit,-20,cardiovascular
+409048,49,Female,Caucasian,172.7,unknown,-302,renal
+410108,86,Female,Caucasian,170.2,Direct Admit,-52,cardiovascular
+411036,54,Female,African American,167.6,Emergency Department,-12,neurologic
+414364,40,Male,,185,Emergency Department,-36,endocrine
+416103,71,Male,Caucasian,170.2,Floor,-1265,cardiovascular
+417265,42,Female,,,Emergency Department,-731,cardiovascular
+417524,56,Female,African American,157.5,Emergency Department,-263,cardiovascular
+417577,53,Female,Caucasian,167.6,Emergency Department,-110,neurologic
+417578,53,Female,Caucasian,167.6,Emergency Department,-4987,cardiovascular
+418417,57,Female,Caucasian,162.5,Emergency Department,-697,pulmonary
+419678,80,Male,Caucasian,172.7,Emergency Department,-306,neurologic
+420354,68,Male,Caucasian,193,Emergency Department,-370,cardiovascular
+420865,68,Female,Caucasian,160,Direct Admit,-9,endocrine
+425870,76,Male,Hispanic,162.6,unknown,-121,infectious diseases
+426975,69,Male,Hispanic,177.8,Emergency Department,-11634,pulmonary
+426976,69,Male,Hispanic,177.8,Emergency Department,-494,pulmonary
+430845,63,Male,Hispanic,182.9,Emergency Department,-397,cardiovascular
+431760,56,Female,Hispanic,167.6,Floor,-11657,other
+436624,85,Male,Hispanic,170.2,Emergency Department,0,cardiovascular
+436993,79,Male,Hispanic,180.3,Operating Room,-4564,burns/trauma
+439621,21,Female,Hispanic,160,unknown,-185,endocrine
+441732,89,Male,Hispanic,172.7,Floor,-5380,cardiovascular
+443664,43,Female,Hispanic,165.1,Floor,-3939,cardiovascular
+444692,72,Male,Hispanic,170.2,Emergency Department,-70,cardiovascular
+447542,80,Male,Hispanic,167.6,Emergency Department,-13796,cardiovascular
+447543,80,Male,Hispanic,167.6,Emergency Department,-54,cardiovascular
+450383,55,Male,Caucasian,165.1,Floor,-3155,infectious diseases
+453326,85,Male,Hispanic,167.6,Emergency Department,-85,cardiovascular
+453764,58,Female,African American,157.5,Recovery Room,-4744,gastrointestinal
+454240,58,Female,Hispanic,170.2,Emergency Department,-342,pulmonary
+466465,70,Female,African American,,Emergency Department,-433,gastrointestinal
+467819,88,Male,Hispanic,157.5,Emergency Department,-161,neurologic
+468560,29,Male,Other/Unknown,182.9,unknown,-165,endocrine
+469890,81,Male,Hispanic,,Emergency Department,-940,gastrointestinal
+472359,63,Female,African American,157.48,Emergency Department,-897,endocrine
+472360,63,Female,African American,157.48,Emergency Department,-6741,other
+472811,64,Male,Hispanic,175.3,Emergency Department,-449,neurologic
+472969,44,Male,Hispanic,177.8,unknown,-372,endocrine
+475290,21,Female,Hispanic,160,unknown,-355,endocrine
+475792,> 89,Male,Hispanic,172.7,Operating Room,-5102,infectious diseases
+479455,24,Female,Other/Unknown,152.4,Emergency Department,-198,endocrine
+482789,79,Male,Hispanic,600,Emergency Department,-509,pulmonary
+483209,72,Male,Hispanic,172.7,Floor,-19151,cardiovascular
+485952,21,Female,Hispanic,160,Emergency Department,-75,endocrine
+489459,54,Male,Hispanic,182.9,unknown,-34,cardiovascular
+490454,89,Male,Hispanic,170.18,unknown,-106,pulmonary
+490809,71,Male,Hispanic,182.9,Emergency Department,-306,pulmonary
+493862,43,Male,Hispanic,182.9,Emergency Department,-170,cardiovascular
+494366,82,Female,Hispanic,152.4,Emergency Department,-34,cardiovascular
+496831,69,Male,Hispanic,182.9,Operating Room,-56,cardiovascular
+496980,49,Male,Hispanic,180.3,Emergency Department,-77,neurologic
+498515,71,Male,Hispanic,170.2,Emergency Department,-92,cardiovascular
+498848,58,Male,Hispanic,180.3,unknown,-4018,cardiovascular
+498849,58,Male,Hispanic,180.3,unknown,-7260,cardiovascular
+499328,73,Male,Caucasian,170.2,Recovery Room,-4634,other
+503222,82,Male,Hispanic,165.1,Emergency Department,-45,cardiovascular
+506770,66,Male,Hispanic,170.2,Emergency Department,-112,cardiovascular
+508973,87,Female,Hispanic,154.9,Emergency Department,-595,gastrointestinal
+509023,87,Female,Asian,167.6,Emergency Department,-271,neurologic
+514387,81,Female,Caucasian,157.5,Emergency Department,-192,gastrointestinal
+518155,83,Male,Hispanic,170.2,unknown,-87,cardiovascular
+520522,62,Female,Other/Unknown,157.5,Operating Room,-5961,cardiovascular
+521456,82,Male,Hispanic,172.7,Operating Room,-162,pulmonary
+523787,83,Female,Hispanic,160.02,Emergency Department,-164,other
+524799,33,Female,African American,160,Operating Room,-725,neurologic
+525046,38,Female,Other/Unknown,157.5,Emergency Department,-174,neurologic
+529415,24,Female,Caucasian,157,Emergency Department,-643,endocrine
+531662,62,Male,Hispanic,170.2,Operating Room,-7140,cardiovascular
+531806,86,Male,Other/Unknown,154.94,Emergency Department,-567,gastrointestinal
+532222,88,Male,Hispanic,175.26,Recovery Room,-4834,cardiovascular
+532223,88,Male,Hispanic,175.26,Recovery Room,-1745,cardiovascular
+533168,78,Male,Hispanic,182.9,unknown,-131,cardiovascular
+534579,79,Male,Caucasian,172.7,Operating Room,-2138,pulmonary
+535166,63,Male,Caucasian,175,Emergency Department,-113,neurologic
+538214,82,Male,Caucasian,177,Emergency Department,-349,cardiovascular
+539482,76,Male,Caucasian,172.1,Emergency Department,-436,endocrine
+542874,41,Female,Caucasian,167,Emergency Department,-156,pulmonary
+544158,29,Male,Caucasian,170,Emergency Department,-813,endocrine
+544159,29,Male,Caucasian,170,Emergency Department,-174,endocrine
+547540,67,Male,Caucasian,175.2,Emergency Department,-217,gastrointestinal
+550209,43,Female,Caucasian,162.5,unknown,-27,neurologic
+558719,76,Female,Caucasian,157,Emergency Department,-119,pulmonary
+562011,57,Male,Caucasian,182,Emergency Department,-107,toxicology
+562305,28,Male,Caucasian,170,Emergency Department,-96,endocrine
+563516,75,Male,Caucasian,177.8,unknown,-2014,cardiovascular
+564216,54,Male,Caucasian,193,Acute Care/Floor,-775,pulmonary
+564485,42,Male,Caucasian,180,Emergency Department,-6180,renal
+564486,42,Male,Caucasian,180,Emergency Department,-121,renal
+568432,62,Female,Caucasian,149,Emergency Department,-106,pulmonary
+569865,64,Male,Caucasian,185,Emergency Department,-33,cardiovascular
+570071,66,Male,Caucasian,177.8,Floor,-1435,pulmonary
+570085,82,Female,Caucasian,149.8,Emergency Department,-103,cardiovascular
+570086,82,Female,Caucasian,149.8,Emergency Department,-1523,cardiovascular
+572556,34,Male,Caucasian,185,Floor,-15666,pulmonary
+572557,34,Male,Caucasian,185,Floor,-8528,cardiovascular
+575230,40,Male,Caucasian,180,Emergency Department,-71,toxicology
+575545,66,Female,Caucasian,168,Emergency Department,-12,neurologic
+576214,68,Male,Caucasian,188,Emergency Department,-613,cardiovascular
+578187,41,Female,Caucasian,167,Other Hospital,-27,other
+580972,44,Male,Other/Unknown,170,Emergency Department,-69,toxicology
+583821,> 89,Female,Caucasian,154.9,Emergency Department,0,cardiovascular
+585971,73,Male,Caucasian,149.8,Floor,-1900,cardiovascular
+586648,76,Male,Caucasian,175.3,Emergency Department,-139,neurologic
+587426,83,Female,Caucasian,165,Emergency Department,-8,gastrointestinal
+592106,78,Male,African American,182.8,Emergency Department,-199,pulmonary
+592108,78,Male,African American,182.8,Emergency Department,-4119,pulmonary
+598211,30,Male,Hispanic,170.1,Emergency Department,-220,renal
+599651,61,Male,Caucasian,176.5,Operating Room,-4079,cardiovascular
+600169,36,Female,Caucasian,178,Emergency Department,-21,cardiovascular
+600501,85,Male,Other/Unknown,152.4,Emergency Department,-86,cardiovascular
+603254,59,Male,Caucasian,180,Emergency Department,-5403,cardiovascular
+603255,59,Male,Caucasian,180,Emergency Department,-52,cardiovascular
+608375,57,Male,Caucasian,177.9,PACU,-3847,pulmonary
+608479,61,Male,Caucasian,182,Emergency Department,-62,cardiovascular
+609949,48,Female,Hispanic,163,unknown,-11552,neurologic
+616271,70,Male,Caucasian,178,Floor,-2675,cardiovascular
+616272,70,Male,Caucasian,178,Floor,-871,cardiovascular
+616273,70,Male,Caucasian,178,Floor,-1936,cardiovascular
+618867,54,Female,Hispanic,165,Emergency Department,-103,cardiovascular
+624150,54,Female,Caucasian,159,Emergency Department,-124,endocrine
+626098,59,Male,Caucasian,185.4,Emergency Department,-41,gastrointestinal
+628328,73,Male,Other/Unknown,177.8,Operating Room,-252,cardiovascular
+633866,26,Female,African American,157.4,Emergency Department,-166,pulmonary
+634295,36,Male,Other/Unknown,180,unknown,-3569,neurologic
+635827,57,Male,Caucasian,177.8,Emergency Department,-76,gastrointestinal
+636187,29,Male,Caucasian,170,Emergency Department,-122,endocrine
+638579,57,Male,Caucasian,185,Operating Room,-4320,cardiovascular
+639917,24,Male,Caucasian,,Emergency Department,-5,toxicology
+640795,75,Male,Caucasian,177.8,Floor,-9894,cardiovascular
+640796,75,Male,Caucasian,177.8,Floor,-1299,cardiovascular
+642773,79,Male,Caucasian,165.1,Operating Room,-39,other
+646514,> 89,Female,Caucasian,154.9,unknown,-738,gastrointestinal
+650415,66,Male,Caucasian,177,Emergency Department,-4601,pulmonary
+650417,66,Male,Caucasian,177,Emergency Department,-149,pulmonary
+654286,88,Female,Caucasian,151.9,Recovery Room,-935,burns/trauma
+662091,76,Female,Caucasian,170,Emergency Department,-233,neurologic
+664474,64,Male,Caucasian,169,Emergency Department,-150,pulmonary
+671293,74,Male,Other/Unknown,177.8,Emergency Department,-245,cardiovascular
+675037,83,Male,Caucasian,168,unknown,-68,cardiovascular
+678373,67,Male,Caucasian,170,Operating Room,-103,other
+679748,39,Male,Caucasian,180,Emergency Department,-126,cardiovascular
+681745,63,Male,Caucasian,198.1,Acute Care/Floor,-811,renal
+688013,57,Male,Caucasian,167.6,Emergency Department,-92,burns/trauma
+688938,71,Female,Caucasian,154,Emergency Department,-209,pulmonary
+691814,62,Female,Caucasian,147.3,Emergency Department,-96,cardiovascular
+692382,74,Male,Caucasian,175,Emergency Department,-106,pulmonary
+694055,79,Male,Caucasian,170,Operating Room,-21,pulmonary
+700741,71,Female,Caucasian,160,Direct Admit,-83,toxicology
+701925,78,Female,Caucasian,165.1,Emergency Department,-78,pulmonary
+706954,61,Male,Caucasian,178,Acute Care/Floor,-30,cardiovascular
+709257,70,Female,Caucasian,165,Operating Room,-1,pulmonary
+717631,60,Male,Caucasian,187.9,unknown,-3365,cardiovascular
+722595,79,Male,Caucasian,172,Emergency Department,-97,cardiovascular
+732999,28,Male,Caucasian,170,Emergency Department,-138,endocrine
+733082,68,Female,Caucasian,154.9,Floor,-1074,cardiovascular
+733083,68,Female,Caucasian,154.9,Floor,-25864,cardiovascular
+733693,29,Male,Caucasian,170.2,Emergency Department,-110,endocrine
+741996,79,Male,Caucasian,161,Step-Down Unit (SDU),-30894,cardiovascular
+752830,54,Female,African American,149,unknown,-1482,cardiovascular
+752867,68,Female,Caucasian,165,Emergency Department,-65,pulmonary
+753083,28,Male,Caucasian,170,unknown,-1,endocrine
+755286,57,Male,Caucasian,170,Operating Room,-22775,cardiovascular
+755774,66,Female,Caucasian,172,Emergency Department,-487,cardiovascular
+756295,63,Female,Caucasian,157.4,unknown,-24,neurologic
+757201,> 89,Male,Caucasian,170,Emergency Department,-121,cardiovascular
+758325,64,Male,Other/Unknown,183,Emergency Department,-134,pulmonary
+758327,64,Male,Other/Unknown,183,Emergency Department,-15912,cardiovascular
+758779,67,Female,Caucasian,163,Operating Room,-5989,other
+763979,28,Male,Caucasian,169,Emergency Department,-203,endocrine
+769546,82,Male,Caucasian,180.3,Emergency Department,-95,pulmonary
+772262,66,Female,Caucasian,162,Operating Room,-5848,cardiovascular
+773231,47,Female,Caucasian,172.7,Emergency Department,-200,endocrine
+780353,41,Male,Caucasian,170,unknown,-685,gastrointestinal
+785227,60,Female,Caucasian,165,Emergency Department,-158,endocrine
+787275,54,Female,Caucasian,160,Emergency Department,-169,endocrine
+788008,82,Male,African American,163.8,Acute Care/Floor,-13012,pulmonary
+791784,42,Male,Caucasian,180,Emergency Department,-163,cardiovascular
+796205,56,Male,Caucasian,,Operating Room,-191,gastrointestinal
+807440,85,Female,Caucasian,167.6,Emergency Department,-2680,infectious diseases
+807441,85,Female,Caucasian,167.6,Emergency Department,-239,pulmonary
+808117,74,Female,Caucasian,165,Recovery Room,-13559,gastrointestinal
+818155,66,Male,Caucasian,170,Acute Care/Floor,-654,cardiovascular
+820642,28,Male,Caucasian,172.3,Emergency Department,-137,endocrine
+823557,62,Male,Caucasian,177.8,unknown,-14428,pulmonary
+826483,68,Male,Caucasian,187.9,PACU,-92,other
+826668,74,Male,Caucasian,182,Emergency Department,-2625,cardiovascular
+826669,74,Male,Caucasian,182,Emergency Department,-244,cardiovascular
+827084,78,Female,Caucasian,162.6,unknown,-4,gastrointestinal
+827085,78,Female,Caucasian,162.6,unknown,-5307,cardiovascular
+837709,57,Male,Caucasian,176,Emergency Department,-7987,cardiovascular
+837984,43,Male,Caucasian,172,Other ICU,-3853,renal
+838187,28,Male,Caucasian,170,Direct Admit,29,endocrine
+838945,67,Male,Caucasian,165,Operating Room,-5704,cardiovascular
+839120,87,Female,Caucasian,165,unknown,-2930,neurologic
+842499,79,Female,Caucasian,167.6,Operating Room,-202,gastrointestinal
+843991,64,Male,Caucasian,173,unknown,-28,neurologic
+847126,32,Female,Caucasian,182.8,Floor,-2848,neurologic
+849186,76,Male,Caucasian,172.7,Emergency Department,-4159,pulmonary
+850469,79,Male,Other/Unknown,160,Emergency Department,-61,cardiovascular
+851093,64,Male,Caucasian,169,unknown,-1439,pulmonary
+851094,64,Male,Caucasian,169,unknown,-8,pulmonary
+852423,79,Female,Caucasian,156,Floor,-6750,cardiovascular
+852424,79,Female,Caucasian,156,Floor,-8389,cardiovascular
+853131,57,Male,Caucasian,182.8,unknown,-2901,pulmonary
+857618,71,Male,Caucasian,195.5,PACU,-475,other
+859032,67,Female,Caucasian,163,unknown,-1488,cardiovascular
+859033,67,Female,Caucasian,163,unknown,-2856,infectious diseases
+859201,68,Male,Caucasian,176,Floor,-177,cardiovascular
+865449,78,Female,Caucasian,152.4,Recovery Room,-15066,cardiovascular
+865698,75,Male,Caucasian,177.8,Operating Room,-2771,cardiovascular
+866114,82,Female,Caucasian,158,Emergency Department,-33,pulmonary
+869526,34,Male,African American,175,Emergency Department,-122,neurologic
+876268,78,Male,Caucasian,180,Emergency Department,-661,cardiovascular
+876429,80,Male,Caucasian,175.2,Operating Room,-1387,cardiovascular
+887139,55,Male,Caucasian,160,Recovery Room,-8250,cardiovascular
+887140,55,Male,Caucasian,160,Recovery Room,-5781,cardiovascular
+887817,80,Female,Caucasian,165.1,Emergency Department,-354,other
+892619,28,Male,Caucasian,172,Emergency Department,-153,endocrine
+896028,64,Male,Caucasian,175,unknown,-76,pulmonary
+898372,79,Male,Caucasian,172.7,unknown,-106,pulmonary
+899746,69,Male,Caucasian,177.8,Emergency Department,-294,burns/trauma
+903409,70,Male,Caucasian,172,Recovery Room,-345,neurologic
+906947,61,Female,Caucasian,171,Floor,-6174,endocrine
+907256,65,Female,Caucasian,170,Emergency Department,-132,neurologic
+907258,65,Female,Caucasian,170,Emergency Department,-7476,neurologic
+910048,67,Male,Caucasian,192,Emergency Department,-5735,cardiovascular
+910049,67,Male,Caucasian,192,Emergency Department,-6180,cardiovascular
+910050,67,Male,Caucasian,192,Emergency Department,-4622,neurologic
+910051,67,Male,Caucasian,192,Emergency Department,-134,neurologic
+910865,46,Male,Caucasian,177.5,unknown,-4978,other
+913057,89,Female,Caucasian,162.5,Emergency Department,-157,gastrointestinal
+914801,50,Female,Other/Unknown,173,Emergency Department,0,endocrine
+916394,66,Female,Caucasian,165,Recovery Room,-108,other
+922231,30,Female,Caucasian,163,Emergency Department,-6,toxicology
+924223,76,Male,Caucasian,185.4,Direct Admit,-4,endocrine
+925146,64,Male,Caucasian,177,Emergency Department,-7,cardiovascular
+925178,69,Male,Caucasian,177.8,Emergency Department,-2035,gastrointestinal
+926317,78,Female,Caucasian,162.5,Floor,-10059,cardiovascular
+926319,78,Female,Caucasian,162.5,Floor,-22466,cardiovascular
+930706,> 89,Female,Caucasian,160,Emergency Department,-107,cardiovascular
+931649,74,Male,Caucasian,172,Emergency Department,-1055,pulmonary
+931776,77,Female,Caucasian,162,Direct Admit,-21,endocrine
+933278,44,Male,Caucasian,162.5,unknown,-27,toxicology
+937152,73,Male,Caucasian,193,Emergency Department,-38,cardiovascular
+939222,65,Female,Caucasian,158,Emergency Department,-343,cardiovascular
+942382,> 89,Female,Caucasian,153,Floor,-1532,cardiovascular
+942529,73,Male,Caucasian,190.5,Operating Room,-10045,cardiovascular
+942967,> 89,Male,Caucasian,180.4,Emergency Department,-199,pulmonary
+946151,88,Male,Caucasian,165,Floor,-9206,cardiovascular
+946276,80,Male,Caucasian,182.8,Floor,-179,cardiovascular
+949938,79,Male,Caucasian,180.3,Emergency Department,-63,cardiovascular
+949939,79,Male,Caucasian,180.3,Emergency Department,-5304,cardiovascular
+957917,29,Male,Caucasian,170,Emergency Department,-50,endocrine
+958499,28,Male,Caucasian,177,unknown,-732,endocrine
+958719,34,Male,Caucasian,185,Step-Down Unit (SDU),-1517,cardiovascular
+958720,34,Male,Caucasian,185,Step-Down Unit (SDU),-11645,cardiovascular
+961295,67,Female,Caucasian,167.6,Direct Admit,0,cardiovascular
+963136,65,Female,Caucasian,157.48,Emergency Department,-81,pulmonary
+972802,84,Female,Caucasian,147.32,Floor,-4652,infectious diseases
+976535,34,Male,Hispanic,177.8,Emergency Department,-53,toxicology
+976722,80,Male,Caucasian,172.72,Emergency Department,-114,cardiovascular
+994512,54,Female,Caucasian,177.8,Emergency Department,-8,neurologic
+1008970,49,Male,Caucasian,170,Emergency Department,-466,cardiovascular
+1013300,56,Male,Caucasian,180.3,Emergency Department,-50,cardiovascular
+1048833,56,Male,Caucasian,182.9,Emergency Department,-171,neurologic
+1051785,29,Male,Caucasian,168,Emergency Department,-105,toxicology
+1056051,74,Female,Caucasian,166,Direct Admit,-85,cardiovascular
+1056063,21,Female,Caucasian,160,unknown,-217,toxicology
+1056912,76,Female,African American,162.6,unknown,-1093,pulmonary
+1057910,51,Female,Asian,157.5,Emergency Department,-141,cardiovascular
+1058166,50,Male,African American,172.7,Operating Room,-11182,cardiovascular
+1058174,65,Female,Caucasian,152.4,unknown,-414,endocrine
+1058175,65,Female,Caucasian,152.4,unknown,-11814,cardiovascular
+1058611,70,Female,Caucasian,167.6,unknown,-3130,cardiovascular
+1058612,70,Female,Caucasian,167.6,unknown,-300,cardiovascular
+1059195,65,Female,Caucasian,170.2,Emergency Department,-391,neurologic
+1059340,61,Female,Caucasian,177.8,unknown,-308,cardiovascular
+1059533,67,Female,Caucasian,175.3,Floor,-3115,cardiovascular
+1059638,74,Male,African American,188,unknown,-63,pulmonary
+1059935,76,Male,African American,182.3,unknown,-33687,gastrointestinal
+1059936,76,Male,African American,182.3,unknown,-742,gastrointestinal
+1060026,79,Female,Other/Unknown,154.9,Floor,-17600,cardiovascular
+1060144,57,Female,African American,152.4,Operating Room,-611,cardiovascular
+1061585,51,Female,Asian,109.7,Direct Admit,0,cardiovascular
+1062496,60,Female,African American,162.6,unknown,0,infectious diseases
+1063405,50,Male,African American,177.8,Emergency Department,-465,cardiovascular
+1063659,70,Female,African American,165.1,unknown,-112,cardiovascular
+1063742,53,Male,African American,177.8,Emergency Department,-312,cardiovascular
+1063956,72,Female,Caucasian,152.4,unknown,-413,gastrointestinal
+1064283,64,Female,Caucasian,152.4,unknown,-1472,neurologic
+1065468,67,Female,Caucasian,172.7,Operating Room,-1573,cardiovascular
+1065859,> 89,Female,Caucasian,167.6,Emergency Department,-295,renal
+1066190,68,Female,Caucasian,160,unknown,-1725,cardiovascular
+1066202,81,Female,,157.4,Emergency Department,-173,renal
+1066837,68,Female,Caucasian,167.6,Floor,-725,cardiovascular
+1067235,65,Female,Caucasian,154.9,Emergency Department,-266,gastrointestinal
+1067237,55,Male,Other/Unknown,180.4,unknown,-251404,other
+1068212,71,Female,Caucasian,162.6,Floor,-505,neurologic
+1068221,44,Female,Caucasian,157.5,Operating Room,-564,other
+1068646,57,Female,Caucasian,165.1,Recovery Room,-1823,cardiovascular
+1068757,58,Female,Caucasian,167.6,unknown,-6711,cardiovascular
+1069005,59,Female,Asian,165.1,unknown,-5242,cardiovascular
+1069119,76,Female,Caucasian,165.1,Operating Room,-540,cardiovascular
+1069678,71,Female,Caucasian,163,Emergency Department,-856,cardiovascular
+1070390,74,Female,African American,165.1,unknown,-396,cardiovascular
+1070882,82,Female,Caucasian,165.1,Emergency Department,-483,neurologic
+1071224,63,Female,African American,162.5,unknown,-136,cardiovascular
+1071450,69,Female,African American,170.2,Floor,-6295,cardiovascular
+1071594,65,Female,Caucasian,204.5,unknown,-125,endocrine
+1072171,61,Female,Caucasian,167.6,unknown,-14,gastrointestinal
+1072515,44,Female,Caucasian,165.1,Direct Admit,-391,gastrointestinal
+1072615,50,Female,Caucasian,157.5,Emergency Department,-115,other
+1072883,68,Female,Caucasian,162.6,Direct Admit,-5,cardiovascular
+1073820,56,Female,Caucasian,171.5,unknown,-523,pulmonary
+1073984,47,Female,Caucasian,165,unknown,-267,neurologic
+1074253,> 89,Female,Caucasian,160,unknown,-232,cardiovascular
+1074326,75,Female,Caucasian,149.9,unknown,-133,cardiovascular
+1075017,76,Female,Caucasian,155,Emergency Department,-72,neurologic
+1075126,78,Female,African American,170.2,Emergency Department,-201,cardiovascular
+1076172,78,Female,Caucasian,160,Operating Room,-1319,cardiovascular
+1076979,75,Female,Caucasian,157,Other ICU,-658,cardiovascular
+1079891,78,Male,Caucasian,172.7,Emergency Department,-252,cardiovascular
+1081591,78,Female,Caucasian,150,Operating Room,-2,neurologic
+1081610,76,Female,Caucasian,165.1,Emergency Department,-277,other
+1081672,76,Female,Caucasian,157.5,Emergency Department,-139,endocrine
+1081886,76,Male,Caucasian,182.9,Emergency Department,-32,cardiovascular
+1081887,76,Male,Caucasian,182.9,Emergency Department,-153,cardiovascular
+1083556,78,Female,Caucasian,167.6,Emergency Department,0,cardiovascular
+1083557,78,Female,Caucasian,167.6,Emergency Department,-1,cardiovascular
+1083722,79,Female,Caucasian,,Emergency Department,-314,neurologic
+1084013,77,Female,Caucasian,152.4,Emergency Department,-114,cardiovascular
+1087299,77,Female,Caucasian,149.9,Emergency Department,-34,cardiovascular
+1087596,76,Female,Caucasian,165,Emergency Department,-8065,pulmonary
+1087597,76,Female,Caucasian,165,Emergency Department,-133,pulmonary
+1088206,76,Male,Caucasian,170.2,Other ICU,-10,cardiovascular
+1088450,> 89,Male,Caucasian,178,Other ICU,-1288,cardiovascular
+1089400,78,Male,Caucasian,175,Emergency Department,-111,pulmonary
+1090033,79,Male,Caucasian,183,Emergency Department,-30,cardiovascular
+1090039,77,Male,Caucasian,177.8,Emergency Department,-197,cardiovascular
+1090567,76,Male,Caucasian,180,Floor,-5849,gastrointestinal
+1090889,78,Female,Caucasian,162.5,Emergency Department,-3056,infectious diseases
+1091111,> 89,Female,Caucasian,157.5,Emergency Department,-129,other
+1091133,77,Male,Caucasian,158,Emergency Department,-16,cardiovascular
+1091677,76,Female,Caucasian,170.2,Other ICU,-1630,other
+1093806,77,Female,Caucasian,156,Operating Room,-1964,gastrointestinal
+1093888,78,Male,Caucasian,177,Emergency Department,-110,infectious diseases
+1095052,78,Female,Caucasian,165.1,Emergency Department,-43,burns/trauma
+1095527,77,Female,Caucasian,158,Floor,-1406,pulmonary
+1096032,78,Female,Caucasian,173.8,Emergency Department,-2517,cardiovascular
+1096127,77,Female,Caucasian,162,Emergency Department,0,cardiovascular
+1098048,76,Male,Caucasian,70,Emergency Department,-58,other
+1098222,77,Male,Caucasian,177.8,Emergency Department,-3085,gastrointestinal
+1098224,77,Male,Caucasian,177.8,Emergency Department,-428,gastrointestinal
+1098722,78,Female,Caucasian,162.6,Step-Down Unit (SDU),-5141,pulmonary
+1099398,78,Male,Caucasian,165,Emergency Department,-22,pulmonary
+1101375,79,Female,Caucasian,157,Emergency Department,-28,neurologic
+1102691,75,Male,Caucasian,185.4,Emergency Department,3960,burns/trauma
+1103224,78,Female,Caucasian,157.5,Direct Admit,-30,cardiovascular
+1104499,> 89,Male,Caucasian,165.1,Emergency Department,-3881,other
+1104609,74,Female,Caucasian,162.6,Other ICU,-711,cardiovascular
+1104960,79,Female,Caucasian,167.6,Emergency Department,-166,cardiovascular
+1105687,75,Female,Caucasian,162.6,Emergency Department,-416,cardiovascular
+1105833,77,Female,Caucasian,154.9,Floor,-5002,cardiovascular
+1106162,76,Male,Caucasian,165,Emergency Department,-248,pulmonary
+1106309,> 89,Female,Caucasian,165,Emergency Department,-118,cardiovascular
+1107208,78,Female,Caucasian,165,Floor,1487,neurologic
+1107902,79,Male,Caucasian,175.3,Emergency Department,-83,burns/trauma
+1108808,74,Male,Caucasian,165.1,Emergency Department,-30,gastrointestinal
+1109136,78,Male,Caucasian,182.9,Emergency Department,-74,neurologic
+1111554,78,Male,Caucasian,167.6,Floor,-1179,cardiovascular
+1111686,78,Male,Caucasian,167.6,Emergency Department,-71,pulmonary
+1113145,79,Female,Caucasian,157.5,Direct Admit,-198,cardiovascular
+1113267,79,Male,Caucasian,175,Emergency Department,-90,cardiovascular
+1114748,78,Male,Caucasian,173,unknown,-438,cardiovascular
+1115347,> 89,Female,Caucasian,170,Floor,-20840,pulmonary
+1115614,> 89,Female,Caucasian,154.9,Operating Room,-989,other
+1116202,> 89,Female,Caucasian,152.4,Operating Room,-204,burns/trauma
+1116592,77,Male,Caucasian,175,Emergency Department,-50,pulmonary
+1116712,76,Female,Caucasian,,Emergency Department,-500,endocrine
+1117332,78,Female,Caucasian,152.4,Floor,-3083,cardiovascular
+1117947,79,Male,Caucasian,170,Floor,-3367,pulmonary
+1118171,76,Male,Caucasian,176,Emergency Department,-1,neurologic
+1118668,77,Female,Caucasian,162.6,Direct Admit,0,pulmonary
+1118948,77,Female,Caucasian,154.9,Step-Down Unit (SDU),-9916,cardiovascular
+1118949,77,Female,Caucasian,154.9,Step-Down Unit (SDU),-736,cardiovascular
+1119363,76,Male,Caucasian,172,Emergency Department,-11,cardiovascular
+1119918,77,Female,Caucasian,165.1,Operating Room,-1650,other
+1121034,78,Female,Caucasian,158,Emergency Department,-112,pulmonary
+1124068,77,Male,Caucasian,178,Emergency Department,-271,burns/trauma
+1124305,78,Female,Caucasian,158,Floor,-5430,gastrointestinal
+1129073,78,Female,Caucasian,152.4,Emergency Department,-205,pulmonary
+1129386,77,Female,Caucasian,147.3,Emergency Department,-86,cardiovascular
+1131143,78,Female,Caucasian,147.3,Emergency Department,-916,burns/trauma
+1131174,77,Male,Caucasian,168,Emergency Department,-364,cardiovascular
+1132954,79,Male,Caucasian,168.9,Operating Room,-5777,cardiovascular
+1133463,76,Male,Caucasian,160,Floor,-2922,pulmonary
+1134986,77,Male,Caucasian,177.8,Emergency Department,-72,neurologic
+1141676,86,Female,Caucasian,162.5,Step-Down Unit (SDU),-1778,cardiovascular
+1141764,76,Female,Caucasian,152.4,Emergency Department,-56,cardiovascular
+1143992,80,Female,Caucasian,67.9,Floor,-1522,cardiovascular
+1144659,77,Female,Caucasian,162.5,Emergency Department,-125,cardiovascular
+1145673,> 89,Female,Caucasian,160,Floor,-446,cardiovascular
+1147520,67,Female,Hispanic,152.4,Emergency Department,0,pulmonary
+1151591,82,Male,Caucasian,172.7,Floor,-8659,cardiovascular
+1151592,82,Male,Caucasian,172.7,Floor,-2275,cardiovascular
+1152973,46,Male,Caucasian,167.6,Emergency Department,-25,toxicology
+1154605,76,Female,Caucasian,149.8,Emergency Department,-26624,pulmonary
+1154606,76,Female,Caucasian,149.8,Emergency Department,-4716,pulmonary
+1156775,79,Female,African American,165.1,Step-Down Unit (SDU),-2157,cardiovascular
+1160785,83,Male,Caucasian,177.8,Recovery Room,-406,cardiovascular
+1161025,56,Male,,203.2,Emergency Department,-1718,gastrointestinal
+1161026,56,Male,,203.2,Emergency Department,-88,gastrointestinal
+1161082,63,Female,Caucasian,157.4,Floor,-8556,gastrointestinal
+1161207,78,Male,Caucasian,177.8,Emergency Department,-96,cardiovascular
+1162903,89,Male,Caucasian,170.1,Emergency Department,-93,cardiovascular
+1164093,49,Male,Caucasian,182.8,Floor,-129,cardiovascular
+1166018,61,Female,Caucasian,167.6,ICU,-56,renal
+1167770,39,Male,African American,177.8,Emergency Department,-57,pulmonary
+1171473,60,Female,Caucasian,177.8,Operating Room,-23,pulmonary
+1173453,65,Male,Hispanic,172.7,Emergency Department,-336,other
+1174746,66,Male,Caucasian,182.8,Emergency Department,0,pulmonary
+1174912,88,Male,Caucasian,177.8,Emergency Department,-89,pulmonary
+1176674,55,Male,Caucasian,177.8,Acute Care/Floor,-9225,cardiovascular
+1176675,55,Male,Caucasian,177.8,Acute Care/Floor,-117,cardiovascular
+1177589,74,Male,Caucasian,188,Emergency Department,-129,endocrine
+1179671,39,Male,African American,177.8,Emergency Department,-39,pulmonary
+1182006,> 89,Female,Caucasian,154.9,Step-Down Unit (SDU),-303,endocrine
+1184492,66,Female,Caucasian,152.4,Floor,-369,pulmonary
+1185666,29,Female,Caucasian,170.1,Emergency Department,-42,toxicology
+1186020,75,Female,Caucasian,152.4,Emergency Department,-105,cardiovascular
+1191262,79,Male,African American,182.2,Emergency Department,-15,neurologic
+1191583,77,Female,Caucasian,162.3,Emergency Department,-78,cardiovascular
+1192076,51,Male,Caucasian,175.2,Emergency Department,-47,cardiovascular
+1193511,56,Male,Caucasian,180,Emergency Department,-83,cardiovascular
+1195714,59,Male,African American,165,Operating Room,-434,cardiovascular
+1211078,85,Female,Caucasian,172.7,Emergency Department,-39,gastrointestinal
+1215338,59,Male,Caucasian,182.8,Emergency Department,-163,pulmonary
+1218183,37,Female,Caucasian,162.6,Floor,-404,infectious diseases
+1224149,89,Male,Hispanic,175.3,Step-Down Unit (SDU),-6160,cardiovascular
+1226346,71,Female,Caucasian,160,Emergency Department,-203,pulmonary
+1226362,76,Female,Caucasian,157.5,Emergency Department,-753,pulmonary
+1229669,56,Female,Caucasian,167.6,Emergency Department,-16640,gastrointestinal
+1235619,34,Male,Hispanic,162.6,Emergency Department,-137,endocrine
+1247906,71,Female,Caucasian,160,Emergency Department,-217,cardiovascular
+1248493,88,Female,Caucasian,157.5,Emergency Department,-212,neurologic
+1250975,71,Male,African American,180.3,Emergency Department,-127,cardiovascular
+1251159,89,Female,Caucasian,162.6,Operating Room,-1573,burns/trauma
+1252888,68,Female,Caucasian,165.1,Floor,-760,pulmonary
+1253494,30,Female,African American,167.6,Emergency Department,-175,renal
+1254957,64,Female,Caucasian,162.6,Emergency Department,-165,cardiovascular
+1255562,57,Female,Hispanic,167.6,Emergency Department,-143,endocrine
+1256137,48,Male,Caucasian,177.8,Emergency Department,-219,cardiovascular
+1259283,66,Male,Native American,180.3,Emergency Department,-442,renal
+1259416,79,Male,Hispanic,170.2,Emergency Department,-155,gastrointestinal
+1259537,68,Female,Caucasian,165.1,Floor,-10440,other
+1261141,67,Female,Caucasian,162.6,Floor,-4560,pulmonary
+1263251,73,Male,African American,180.3,Emergency Department,-167,cardiovascular
+1263937,71,Male,Caucasian,140,Emergency Department,-196,infectious diseases
+1270422,58,Female,Caucasian,154.9,Emergency Department,-157,pulmonary
+1271379,72,Male,African American,180.3,Emergency Department,-739,cardiovascular
+1272544,77,Male,Caucasian,179.1,Emergency Department,-113,cardiovascular
+1275596,73,Female,Asian,162.6,unknown,-5944,cardiovascular
+1278738,60,Male,Caucasian,172.7,Emergency Department,-154,gastrointestinal
+1282634,30,Female,African American,167.6,Emergency Department,-496,renal
+1282697,57,Female,Other/Unknown,157.5,Emergency Department,-175,pulmonary
+1287791,> 89,Female,Caucasian,163.8,Emergency Department,-3007,neurologic
+1289294,77,Male,Caucasian,177.8,Emergency Department,-331,cardiovascular
+1290248,79,Male,Hispanic,167.6,Emergency Department,-233,gastrointestinal
+1290999,31,Female,Caucasian,154.9,Emergency Department,-253,pulmonary
+1291973,72,Male,African American,175.3,Emergency Department,-142,cardiovascular
+1292009,67,Male,African American,180.3,Emergency Department,-250,infectious diseases
+1292649,58,Female,Caucasian,160,Direct Admit,-143,cardiovascular
+1293742,59,Female,Caucasian,162.6,Emergency Department,-169,pulmonary
+1295372,46,Female,African American,157.5,Step-Down Unit (SDU),-981,cardiovascular
+1297084,72,Male,African American,180.3,Emergency Department,-299,cardiovascular
+1298149,73,Male,Caucasian,180.3,Emergency Department,-755,burns/trauma
+1298150,73,Male,Caucasian,180.3,Emergency Department,-390,burns/trauma
+1298314,55,Male,Caucasian,182.9,Emergency Department,-206,toxicology
+1303268,72,Female,African American,172.7,Recovery Room,-15702,cardiovascular
+1307826,> 89,Female,Asian,152.4,Emergency Department,-397,pulmonary
+1308131,> 89,Female,Caucasian,160,Floor,-545,neurologic
+1311473,75,Female,Caucasian,162.6,Emergency Department,-284,neurologic
+1325741,79,Male,Other/Unknown,177.8,Direct Admit,-7,neurologic
+1325742,79,Male,Other/Unknown,177.8,Direct Admit,-22517,neurologic
+1327852,26,Male,Hispanic,180.3,Emergency Department,-314,endocrine
+1335511,84,Male,Caucasian,167.6,Emergency Department,-426,neurologic
+1338010,> 89,Female,Caucasian,139.7,Operating Room,-3782,burns/trauma
+1341462,38,Male,Caucasian,,Operating Room,-388,burns/trauma
+1341845,89,Male,Hispanic,182.9,Emergency Department,-133,cardiovascular
+1345180,74,Female,Caucasian,157.4,Emergency Department,-123,cardiovascular
+1350881,21,Male,Caucasian,180.3,Operating Room,-484,burns/trauma
+1351888,59,Male,Caucasian,182.9,Operating Room,-600,cardiovascular
+1352773,82,Male,Caucasian,172.7,Direct Admit,-433,cardiovascular
+1358809,23,Male,Caucasian,185.4,Emergency Department,-107,burns/trauma
+1359171,83,Female,Hispanic,160,Emergency Department,-420,neurologic
+1359918,83,Male,Caucasian,185.4,Emergency Department,-325,pulmonary
+1363755,79,Female,Caucasian,162.6,Floor,-1015,pulmonary
+1433842,86,Female,Caucasian,160,Emergency Department,-611,pulmonary
+1436955,36,Female,Caucasian,170,unknown,-638,cardiovascular
+1437505,31,Male,Caucasian,175,Emergency Department,-252,endocrine
+1437826,74,Female,African American,160,unknown,-499,gastrointestinal
+1439473,27,Female,African American,168,Emergency Department,-202,cardiovascular
+1439835,54,Male,Other/Unknown,163,Emergency Department,-311,cardiovascular
+1441069,78,Male,Asian,157,Emergency Department,-166,pulmonary
+1441610,87,Female,Caucasian,170,Emergency Department,-192,other
+1443414,30,Male,African American,185,Emergency Department,-333,renal
+1444850,35,Female,Caucasian,168,Emergency Department,-327,endocrine
+1447123,66,Female,African American,155,Emergency Department,-413,cardiovascular
+1448756,50,Male,African American,178,Emergency Department,-426,burns/trauma
+1449360,24,Female,Caucasian,158,Floor,-1507,other
+1450141,26,Female,African American,168,unknown,-247,cardiovascular
+1451800,19,Female,African American,160,Recovery Room,-6718,other
+1453811,78,Female,Caucasian,150,Emergency Department,-232,cardiovascular
+1455088,60,Female,Caucasian,157,unknown,-5972,neurologic
+1456586,22,Female,African American,157,Floor,-2130,other
+1457319,73,Female,Caucasian,165,unknown,-341,cardiovascular
+1457680,54,Female,African American,173,Emergency Department,-272,endocrine
+1457949,31,Male,Caucasian,175,Emergency Department,-319,endocrine
+1461035,24,Female,Caucasian,165,Recovery Room,-2690,other
+1462227,26,Female,African American,168,Emergency Department,-601,cardiovascular
+1463884,31,Male,Caucasian,175,Emergency Department,-332,endocrine
+1466698,77,Male,Caucasian,168,Floor,-3897,cardiovascular
+1473617,77,Male,Caucasian,168,Emergency Department,-297,cardiovascular
+1474690,77,Male,Asian,163,Emergency Department,-260,pulmonary
+1478653,84,Male,Caucasian,178,unknown,-389,gastrointestinal
+1483029,56,Male,African American,170,Emergency Department,-186,pulmonary
+1485382,71,Male,Caucasian,183,Emergency Department,-353,cardiovascular
+1488334,30,Male,Caucasian,175,Emergency Department,-401,endocrine
+1488633,72,Female,Caucasian,163,Emergency Department,-260,renal
+1492182,77,Female,Caucasian,150,Emergency Department,-329,cardiovascular
+1494982,25,Female,African American,163,Emergency Department,-306,pulmonary
+1496959,57,Female,Caucasian,163,Emergency Department,-295,gastrointestinal
+1497157,29,Female,Caucasian,157,unknown,-277,other
+1501907,19,Male,Caucasian,185,Emergency Department,-181,endocrine
+1502521,34,Female,Caucasian,168,Emergency Department,-283,endocrine
+1506131,26,Female,African American,168,Emergency Department,-406,cardiovascular
+1507417,56,Male,African American,173,Emergency Department,-300,pulmonary
+1507565,77,Female,Caucasian,150,Emergency Department,-322,cardiovascular
+1514653,76,Female,Caucasian,155,Recovery Room,-4312,other
+1516341,27,Female,African American,168,Emergency Department,-760,infectious diseases
+1516976,26,Female,African American,152,Emergency Department,-416,cardiovascular
+1525675,69,Male,Other/Unknown,163,unknown,-316,cardiovascular
+1528129,19,Female,African American,154,Emergency Department,-244,toxicology
+1532382,62,Male,African American,168,Emergency Department,-271,cardiovascular
+1536927,21,Female,African American,157,Emergency Department,-212,other
+1540035,26,Female,African American,168,Emergency Department,-429,cardiovascular
+1544756,80,Female,Caucasian,165,unknown,-707,gastrointestinal
+1545675,25,Female,African American,165,Emergency Department,-327,renal
+1546668,73,Male,Asian,163,Emergency Department,-290,infectious diseases
+1547780,30,Male,Caucasian,185,Emergency Department,-206,toxicology
+1550318,33,Female,Caucasian,165,Recovery Room,-1752,other
+1550501,36,Female,Caucasian,168,unknown,-495,endocrine
+1553788,51,Male,Caucasian,175.3,Emergency Department,-9220,neurologic
+1555005,86,Female,Caucasian,160,Recovery Room,-160,cardiovascular
+1557373,84,Female,Caucasian,162.6,Direct Admit,0,pulmonary
+1557515,73,Male,Other/Unknown,162.6,Recovery Room,-2992,gastrointestinal
+1559197,63,Female,Caucasian,165.1,Emergency Department,-144,cardiovascular
+1563484,18,Female,Caucasian,162.6,Emergency Department,-228,toxicology
+1568559,72,Female,Caucasian,152.4,Emergency Department,-262,burns/trauma
+1570210,89,Male,Caucasian,172.7,Emergency Department,-173,cardiovascular
+1571036,> 89,Female,Caucasian,154.9,Floor,-7285,cardiovascular
+1572351,> 89,Female,Caucasian,152.4,Emergency Department,-195,pulmonary
+1575432,87,Female,Caucasian,170.2,Emergency Department,-151,cardiovascular
+1576845,37,Female,Caucasian,154.9,Emergency Department,-180,endocrine
+1578108,72,Male,Caucasian,177.8,Direct Admit,-144,cardiovascular
+1580986,63,Female,Caucasian,165.1,Emergency Department,-269,cardiovascular
+1582472,> 89,Female,Caucasian,168.9,Emergency Department,-164,cardiovascular
+1582555,76,Female,Caucasian,165.1,Recovery Room,-1958,neurologic
+1584003,22,Female,Caucasian,175.3,Emergency Department,-253,neurologic
+1585807,86,Male,Caucasian,180.3,Floor,-755,gastrointestinal
+1588817,64,Female,Caucasian,165.1,Emergency Department,-196,cardiovascular
+1588896,78,Male,Caucasian,162.6,Operating Room,-238,pulmonary
+1590480,52,Male,Caucasian,175.3,Emergency Department,-265,endocrine
+1590738,65,Male,African American,176.5,Operating Room,-508,cardiovascular
+1592593,58,Male,Caucasian,177.8,Recovery Room,-586,other
+1593179,39,Female,Caucasian,152.4,Emergency Department,-246,pulmonary
+1593818,58,Female,Caucasian,162.6,Direct Admit,0,toxicology
+1598701,81,Female,Caucasian,157,Emergency Department,-136,pulmonary
+1610742,53,Female,Caucasian,170,Emergency Department,-78,cardiovascular
+1645662,52,Male,African American,183,unknown,-159,pulmonary
+1653043,54,Male,Caucasian,163,Emergency Department,-82,cardiovascular
+1664412,89,Male,Caucasian,185,Emergency Department,-206,cardiovascular
+1670512,79,Female,Caucasian,157,Acute Care/Floor,-29,cardiovascular
+1686778,68,Female,Caucasian,155,Emergency Department,-17,cardiovascular
+1703287,64,Female,Caucasian,170,Emergency Department,-434,cardiovascular
+1707249,68,Male,Caucasian,178,Floor,-2549,other
+1708886,34,Male,Caucasian,190,Emergency Department,-23,neurologic
+1709755,21,Male,Caucasian,,Emergency Department,-11,gastrointestinal
+1714981,47,Male,Caucasian,167,Emergency Department,-125,toxicology
+1718492,38,Female,African American,170.2,unknown,-688,other
+1719419,52,Male,Caucasian,,unknown,-112,cardiovascular
+1725431,69,Male,African American,181.6,unknown,-207,neurologic
+1725601,75,Male,Caucasian,167.6,unknown,-1084,cardiovascular
+1726091,70,Male,Caucasian,177.8,Operating Room,-57,cardiovascular
+1728137,58,Male,Other/Unknown,167.6,unknown,-297,cardiovascular
+1728151,50,Male,Caucasian,185.4,unknown,-110,cardiovascular
+1731654,80,Male,Caucasian,170.2,unknown,-1690,burns/trauma
+1732031,86,Female,Other/Unknown,160,unknown,-2984,cardiovascular
+1733584,60,Male,Caucasian,185.4,unknown,-266,infectious diseases
+1735220,75,Female,Caucasian,162.5,unknown,-315,cardiovascular
+1735497,74,Male,Other/Unknown,172.7,unknown,-16154,other
+1740411,59,Male,Caucasian,187.9,unknown,-284,infectious diseases
+1744853,67,Male,Caucasian,180.3,Emergency Department,-82,gastrointestinal
+1744887,67,Male,Caucasian,165.1,unknown,-284,neurologic
+1746313,> 89,Female,Caucasian,149.9,unknown,-7182,pulmonary
+1748443,49,Male,Caucasian,188,unknown,-21745,cardiovascular
+1751224,83,Male,Caucasian,188,unknown,-134,cardiovascular
+1756030,62,Male,Caucasian,182.9,unknown,-106,neurologic
+1756529,55,Male,Caucasian,180.3,unknown,0,neurologic
+1757145,22,Male,Caucasian,187.9,unknown,-95,burns/trauma
+1758977,69,Female,Caucasian,167.6,unknown,-367,other
+1765641,> 89,Male,Caucasian,182.8,unknown,-19,cardiovascular
+1767810,79,Male,Caucasian,172.7,unknown,-177,pulmonary
+1768103,76,Male,Caucasian,165.1,unknown,-167,pulmonary
+1769880,> 89,Female,Caucasian,160,unknown,-144,neurologic
+1772266,75,Male,Caucasian,167.6,unknown,-168,pulmonary
+1772933,81,Male,Caucasian,172.7,unknown,-5139,gastrointestinal
+1773222,63,Female,Caucasian,161.3,Operating Room,-515,cardiovascular
+1774133,70,Male,Caucasian,190.5,unknown,-192,infectious diseases
+1775226,52,Male,Other/Unknown,160,unknown,-8,cardiovascular
+1785012,64,Male,African American,177.8,unknown,-479,cardiovascular
+1785133,67,Male,Caucasian,170,unknown,-105,cardiovascular
+1785418,56,Male,African American,177.8,unknown,-282,cardiovascular
+1786286,68,Male,African American,182.9,unknown,-702,neurologic
+1788165,67,Male,Caucasian,182,unknown,-74939,cardiovascular
+1788166,67,Male,Caucasian,182,unknown,-25671,pulmonary
+1788623,60,Male,Other/Unknown,170.2,unknown,-361,cardiovascular
+1790300,45,Male,Caucasian,172.7,unknown,-155,cardiovascular
+1790816,77,Male,Caucasian,172.7,unknown,-273,cardiovascular
+1794248,41,Female,Other/Unknown,165.1,Floor,-16438,neurologic
+1794908,69,Male,Other/Unknown,160,unknown,-5722,cardiovascular
+1795109,53,Male,Caucasian,177.8,unknown,-1559,neurologic
+1795300,> 89,Male,Other/Unknown,177.8,unknown,-156,cardiovascular
+1799186,63,Female,Caucasian,161.2,unknown,-361,cardiovascular
+1803053,55,Male,African American,177.8,unknown,-384,cardiovascular
+1805312,83,Male,Caucasian,182.9,unknown,-8810,pulmonary
+1809093,69,Male,African American,172.7,unknown,-113,neurologic
+1810059,57,Female,Caucasian,165.1,unknown,-97,endocrine
+1811623,55,Male,African American,177.8,unknown,-142,cardiovascular
+1813166,84,Male,Caucasian,172.7,unknown,-496,gastrointestinal
+1813246,74,Male,Caucasian,160,unknown,-3129,cardiovascular
+1813792,53,Male,Caucasian,177.8,unknown,-873,neurologic
+1814180,77,Female,Other/Unknown,157.5,unknown,-13450,cardiovascular
+1817190,67,Male,Caucasian,182.9,unknown,-275,gastrointestinal
+1817625,68,Male,Caucasian,188,unknown,-94,cardiovascular
+1817626,68,Male,Caucasian,188,unknown,-3026,cardiovascular
+1817627,68,Male,Caucasian,188,unknown,-1760,cardiovascular
+1818922,74,Male,Caucasian,167.6,unknown,-334,renal
+1819746,47,Male,Caucasian,172.7,Emergency Department,-81,neurologic
+1820865,56,Male,Caucasian,175.2,unknown,17,cardiovascular
+1821487,64,Male,African American,177.8,unknown,-17,cardiovascular
+1821939,80,Female,Caucasian,165.1,Floor,-192,neurologic
+1823356,36,Male,Caucasian,170.2,unknown,-233,endocrine
+1823939,53,Male,Caucasian,172.7,unknown,-1895,neurologic
+1824650,56,Male,Caucasian,177.8,unknown,-458,cardiovascular
+1827722,37,Male,Other/Unknown,167.6,unknown,-328,burns/trauma
+1829278,52,Male,African American,188,unknown,-186,cardiovascular
+1830188,76,Female,Caucasian,157.4,unknown,-63,cardiovascular
+1831111,60,Male,Caucasian,180.3,unknown,-600,neurologic
+1832677,52,Male,Caucasian,172.7,unknown,-74,toxicology
+1833568,59,Male,Caucasian,185.4,unknown,-137,cardiovascular
+1835048,67,Male,Caucasian,165.1,unknown,-635,endocrine
+1835141,51,Male,Other/Unknown,167.6,unknown,-263,endocrine
+1837963,87,Male,Caucasian,167.6,unknown,-6094,cardiovascular
+1837964,87,Male,Caucasian,167.6,unknown,-92,cardiovascular
+1839696,67,Male,Caucasian,172.7,unknown,-778,cardiovascular
+1842417,63,Male,Caucasian,185.4,unknown,-745,cardiovascular
+1843889,58,Female,African American,167.6,unknown,-376,gastrointestinal
+1845109,74,Female,Caucasian,162.6,Emergency Department,-343,infectious diseases
+1845580,51,Male,Caucasian,172.7,unknown,-59,neurologic
+1846269,85,Male,Caucasian,157.5,unknown,-873,neurologic
+1849124,75,Male,African American,175.3,unknown,-644,cardiovascular
+1851750,61,Male,Other/Unknown,170.2,unknown,-278,cardiovascular
+1852625,68,Male,Caucasian,177.8,unknown,-8645,pulmonary
+1853162,67,Male,African American,180.3,Emergency Department,-324,cardiovascular
+1855917,68,Male,Caucasian,175.3,unknown,-2550,gastrointestinal
+1856821,77,Female,Other/Unknown,165.1,unknown,-5532,cardiovascular
+1858620,65,Male,Caucasian,175.3,unknown,-38492,pulmonary
+1968908,47,Male,Caucasian,175.3,Emergency Department,-136,cardiovascular
+1976430,66,Male,,182,Emergency Department,-68,cardiovascular
+1979528,53,Male,Caucasian,175.3,Emergency Department,-147,cardiovascular
+1981330,41,Male,Caucasian,182.9,Emergency Department,-13,gastrointestinal
+1982458,64,Male,Caucasian,180.3,Emergency Department,-101,renal
+1985151,29,Male,Caucasian,,Emergency Department,-157,toxicology
+1985995,23,Female,African American,167.6,Emergency Department,-13,pulmonary
+1998890,73,Male,African American,177.8,unknown,-4475,cardiovascular
+2010574,53,Male,Caucasian,170.2,unknown,-49,gastrointestinal
+2011360,63,Male,Caucasian,182.9,Emergency Department,-484,renal
+2011495,50,Male,Caucasian,177.8,Emergency Department,-266,neurologic
+2015123,37,Male,Caucasian,182.9,unknown,-828,burns/trauma
+2015339,50,Male,Caucasian,193,Emergency Department,-351,cardiovascular
+2016011,42,Male,Caucasian,182.9,unknown,-129,gastrointestinal
+2016313,73,Male,Caucasian,172.7,unknown,-4,renal
+2032312,62,Female,Caucasian,152.4,Direct Admit,-6,cardiovascular
+2038433,78,Female,Caucasian,165.1,Acute Care/Floor,-6159,neurologic
+2038434,78,Female,Caucasian,165.1,Acute Care/Floor,-339,gastrointestinal
+2056364,71,Male,African American,175.3,unknown,-233,gastrointestinal
+2056365,71,Male,African American,175.3,unknown,-2938,gastrointestinal
+2065738,75,Male,,182.8,PACU,-2993,gastrointestinal
+2069920,42,Male,Caucasian,180.3,Emergency Department,-130,gastrointestinal
+2075278,62,Male,Caucasian,168,Emergency Department,-3,cardiovascular
+2075529,67,Female,Caucasian,157.5,Emergency Department,-280,cardiovascular
+2078216,61,Male,,194,Acute Care/Floor,-302,cardiovascular
+2078217,61,Male,,194,Acute Care/Floor,-5921,cardiovascular
+2081387,54,Male,Caucasian,183,Direct Admit,-119,cardiovascular
+2081807,49,Male,Caucasian,172.7,Recovery Room,-609,cardiovascular
+2085133,56,Male,Caucasian,170.2,unknown,-11880,pulmonary
+2085134,56,Male,Caucasian,170.2,unknown,-19444,pulmonary
+2085136,56,Male,Caucasian,170.2,unknown,-1651,pulmonary
+2091116,70,Male,Caucasian,170.2,unknown,-1151,renal
+2091118,70,Male,Caucasian,170.2,unknown,-374,renal
+2093411,26,Female,Caucasian,157.5,Acute Care/Floor,-966,pulmonary
+2093906,67,Male,Caucasian,175.3,Direct Admit,-7,renal
+2095881,43,Male,African American,182.9,Acute Care/Floor,-275,pulmonary
+2095984,75,Male,African American,162.6,unknown,-133,gastrointestinal
+2097882,76,Male,Caucasian,182.9,Operating Room,-581,cardiovascular
+2108150,85,Male,Caucasian,177.8,Emergency Department,-242,renal
+2114686,84,Female,Caucasian,154.9,Acute Care/Floor,-4196,cardiovascular
+2119136,54,Male,Caucasian,165.1,Emergency Department,-18,neurologic
+2119141,40,Male,Native American,182.9,Emergency Department,-806,gastrointestinal
+2125600,74,Male,Caucasian,172.7,Operating Room,-409,cardiovascular
+2128571,80,Male,,175,Acute Care/Floor,-3192,cardiovascular
+2133970,79,Male,Caucasian,167.6,Emergency Department,-455,gastrointestinal
+2134224,38,Male,African American,175.3,Emergency Department,-98,pulmonary
+2141699,67,Male,Caucasian,182.9,Acute Care/Floor,0,pulmonary
+2143474,71,Male,African American,172.7,unknown,-4,gastrointestinal
+2145788,57,Male,Caucasian,177.8,Direct Admit,-39,cardiovascular
+2150580,47,Male,Caucasian,185.4,unknown,-18,infectious diseases
+2154422,66,Male,,180,Acute Care/Floor,-2485,cardiovascular
+2161221,53,Male,Caucasian,182.9,Emergency Department,-21,pulmonary
+2164616,74,Male,African American,177.8,PACU,-375,cardiovascular
+2167151,71,Male,Caucasian,160,Recovery Room,0,neurologic
+2167319,70,Male,Caucasian,182.9,unknown,-13714,gastrointestinal
+2167320,70,Male,Caucasian,182.9,unknown,-6417,gastrointestinal
+2175636,76,Male,,183,Emergency Department,-508,pulmonary
+2188696,18,Male,Caucasian,185.4,Direct Admit,-30,infectious diseases
+2189631,86,Male,Caucasian,180.3,unknown,-230,infectious diseases
+2192084,70,Male,African American,,Emergency Department,-80,gastrointestinal
+2192095,69,Male,Caucasian,185.4,unknown,-532,pulmonary
+2193648,83,Male,Caucasian,167.6,unknown,-8,pulmonary
+2193649,83,Male,Caucasian,167.6,unknown,-1423,pulmonary
+2199589,68,Male,Caucasian,185.4,unknown,-41,pulmonary
+2208455,62,Female,Caucasian,170.2,Direct Admit,-22,toxicology
+2215634,71,Male,African American,175.3,unknown,-31,other
+2215881,72,Male,Caucasian,180,Emergency Department,-101,cardiovascular
+2220763,62,Male,Caucasian,188,unknown,-4507,toxicology
+2220764,62,Male,Caucasian,188,unknown,-579,neurologic
+2220765,62,Male,Caucasian,188,unknown,-3082,toxicology
+2225781,76,Male,,172,Direct Admit,-252,cardiovascular
+2230341,63,Male,Caucasian,175,Step-Down Unit (SDU),0,cardiovascular
+2233402,83,Male,Caucasian,167.6,unknown,-87,gastrointestinal
+2233403,83,Male,Caucasian,167.6,unknown,-834,gastrointestinal
+2240562,38,Male,African American,175.3,Emergency Department,-27,infectious diseases
+2248699,41,Male,Caucasian,182.9,Emergency Department,-272,gastrointestinal
+2249486,71,Male,,182,Emergency Department,-1110,cardiovascular
+2249577,81,Male,Caucasian,170.2,Emergency Department,-342,cardiovascular
+2251446,53,Male,Caucasian,182.8,Emergency Department,-48,cardiovascular
+2251457,40,Male,Native American,182.9,Emergency Department,-32,gastrointestinal
+2258562,43,Male,Caucasian,182.9,Direct Admit,-26,pulmonary
+2264884,70,Male,Caucasian,177.8,Emergency Department,-226,burns/trauma
+2283009,80,Male,Caucasian,185.4,Emergency Department,-266,pulmonary
+2284508,73,Male,,177,Acute Care/Floor,-248,cardiovascular
+2293457,27,Male,Caucasian,185.4,unknown,-412,neurologic
+2303499,63,Female,Caucasian,170.2,Direct Admit,-3244,pulmonary
+2303500,63,Female,Caucasian,170.2,Direct Admit,-62,pulmonary
+2305273,73,Female,Caucasian,167.6,Emergency Department,-205,gastrointestinal
+2308573,50,Female,Caucasian,162.6,Recovery Room,-293,gastrointestinal
+2309912,57,Female,Caucasian,158.8,Floor,-1258,neurologic
+2310584,68,Female,Caucasian,167.6,Emergency Department,-23,gastrointestinal
+2315541,65,Female,Caucasian,157.5,Emergency Department,-127,cardiovascular
+2323567,76,Female,Caucasian,162.6,PACU,-1482,gastrointestinal
+2325386,60,Female,Caucasian,157.5,Acute Care/Floor,-670,cardiovascular
+2332985,79,Female,Caucasian,157.5,Emergency Department,-12,cardiovascular
+2334309,74,Female,Caucasian,160,Emergency Department,-439,pulmonary
+2335944,60,Female,Caucasian,157.5,Operating Room,-13616,renal
+2349210,53,Male,Hispanic,152.4,unknown,-44754,gastrointestinal
+2358786,76,Female,Caucasian,167.6,unknown,-496,pulmonary
+2360838,22,Female,Caucasian,157.5,Emergency Department,-453,toxicology
+2360939,60,Female,Caucasian,154.9,Direct Admit,-5,infectious diseases
+2367340,51,Female,Caucasian,165.1,Emergency Department,-311,toxicology
+2371837,76,Female,Caucasian,172.7,Emergency Department,-21,endocrine
+2372698,89,Female,Caucasian,162.6,unknown,-559,pulmonary
+2374553,61,Female,Caucasian,,unknown,-1055,neurologic
+2386143,69,Female,Caucasian,172.7,Direct Admit,-179,infectious diseases
+2390106,74,Female,Caucasian,162.6,Emergency Department,-1,pulmonary
+2392486,75,Female,Caucasian,167.6,Emergency Department,-5138,neurologic
+2396285,74,Female,Caucasian,160,Operating Room,-4658,cardiovascular
+2396286,74,Female,Caucasian,160,Operating Room,-4945,cardiovascular
+2396287,74,Female,Caucasian,160,Operating Room,-535,cardiovascular
+2398822,55,Female,Caucasian,167.6,unknown,-1,pulmonary
+2399157,62,Female,Caucasian,160,Emergency Department,-579,cardiovascular
+2399222,82,Female,Caucasian,162.6,unknown,-618,burns/trauma
+2401209,48,Female,Caucasian,167.6,Emergency Department,-474,neurologic
+2403083,53,Female,Caucasian,157.5,Emergency Department,-51,pulmonary
+2407144,68,Female,Caucasian,167.6,Acute Care/Floor,-370,endocrine
+2408961,71,Female,Caucasian,162.6,Emergency Department,-217,pulmonary
+2415731,69,Female,Caucasian,172.7,Emergency Department,-143,gastrointestinal
+2416376,71,Male,Caucasian,177.8,Emergency Department,-1,gastrointestinal
+2418055,75,Female,Caucasian,172.7,Direct Admit,-4,neurologic
+2419068,36,Male,Hispanic,182.9,Emergency Department,-418,renal
+2419768,89,Female,Caucasian,154.9,Emergency Department,-212,pulmonary
+2420527,41,Female,Caucasian,165.1,Emergency Department,-4,toxicology
+2426565,59,Female,Caucasian,157.5,PACU,-768,cardiovascular
+2428516,54,Female,Caucasian,162.6,Acute Care/Floor,-5001,neurologic
+2432351,80,Female,Caucasian,152.4,unknown,-255,infectious diseases
+2432352,80,Female,Caucasian,152.4,unknown,-14023,cardiovascular
+2436357,50,Female,Caucasian,162.6,unknown,-3,pulmonary
+2436616,64,Female,Caucasian,154.9,unknown,-137,pulmonary
+2440723,67,Female,Caucasian,157.5,Emergency Department,-18,cardiovascular
+2441710,55,Female,Caucasian,157.5,Operating Room,-299,other
+2442461,22,Male,Caucasian,175.3,Emergency Department,-88,toxicology
+2450383,65,Female,Caucasian,157.5,Emergency Department,-282,pulmonary
+2462225,65,Female,Caucasian,162.6,Emergency Department,-530,pulmonary
+2466952,43,Female,Caucasian,165.1,Emergency Department,-220,cardiovascular
+2469796,63,Female,Caucasian,170.2,Direct Admit,-10,pulmonary
+2470125,> 89,Male,Caucasian,172.7,Emergency Department,-294,pulmonary
+2473922,73,Female,Caucasian,154.9,unknown,-413,burns/trauma
+2475260,27,Male,Caucasian,185.4,Emergency Department,-568,renal
+2476524,88,Female,Caucasian,154.9,Emergency Department,2455,neurologic
+2482439,70,Female,Caucasian,160,unknown,-294,pulmonary
+2486007,82,Female,Caucasian,160,unknown,-346,gastrointestinal
+2488182,79,Female,Caucasian,167.6,unknown,-153,cardiovascular
+2492729,70,Female,Caucasian,157.5,unknown,-235,pulmonary
+2492731,70,Female,Caucasian,157.5,unknown,-1462,pulmonary
+2493040,70,Female,Caucasian,179.1,Emergency Department,-21,cardiovascular
+2493041,70,Female,Caucasian,179.1,Emergency Department,-1591,cardiovascular
+2498010,66,Female,Caucasian,162.6,Emergency Department,-706,gastrointestinal
+2498011,66,Female,Caucasian,162.6,Emergency Department,-337,gastrointestinal
+2499670,52,Female,Caucasian,157.5,Emergency Department,-78,cardiovascular
+2501548,64,Female,Caucasian,160,Operating Room,-2018,cardiovascular
+2505582,54,Female,Caucasian,162.6,Emergency Department,-2,toxicology
+2511125,67,Female,Caucasian,167.6,unknown,-374,cardiovascular
+2512314,65,Female,Caucasian,162.6,Emergency Department,-611,pulmonary
+2512481,18,Female,Caucasian,157.5,Emergency Department,-244,toxicology
+2518855,71,Female,Caucasian,157.5,Emergency Department,-318,pulmonary
+2521021,72,Female,Caucasian,157.5,Emergency Department,-267,pulmonary
+2523738,71,Female,Caucasian,162.6,Emergency Department,-41,other
+2525696,64,Female,Other/Unknown,157.5,Direct Admit,-2,renal
+2527253,80,Female,Caucasian,157.5,Operating Room,-3198,cardiovascular
+2528083,45,Female,Caucasian,172.7,Emergency Department,-33,neurologic
+2552038,73,Female,Caucasian,165.1,unknown,-23,pulmonary
+2552806,54,Female,Caucasian,157.4,Other ICU,-13,other
+2553254,35,Male,Caucasian,177.8,Emergency Department,-180,gastrointestinal
+2557586,52,Male,Caucasian,175.2,unknown,-145,infectious diseases
+2558003,71,Male,Caucasian,167,Emergency Department,-38,neurologic
+2558121,64,Female,Caucasian,152.4,Other Hospital,-8,pulmonary
+2558122,53,Male,Caucasian,187.9,Other Hospital,-12,gastrointestinal
+2559053,84,Female,Caucasian,157.5,Operating Room,-3,cardiovascular
+2559678,84,Male,Caucasian,177.8,unknown,-462,cardiovascular
+2560585,87,Female,Caucasian,165.1,unknown,-131,cardiovascular
+2566203,66,Female,Caucasian,147,unknown,-138,neurologic
+2568975,68,Female,Caucasian,,Emergency Department,-162,burns/trauma
+2570341,78,Female,Caucasian,162.6,unknown,-700,cardiovascular
+2571427,60,Male,Caucasian,180.3,unknown,-1429,pulmonary
+2571798,88,Female,Caucasian,172.7,unknown,-356,cardiovascular
+2573381,71,Female,Caucasian,155,unknown,-251,pulmonary
+2573914,80,Female,Caucasian,147.3,Emergency Department,-505,gastrointestinal
+2574532,57,Male,Caucasian,188,Emergency Department,-128,endocrine
+2575089,28,Male,Hispanic,190.5,Emergency Department,-234,cardiovascular
+2577120,74,Female,Caucasian,154.9,Emergency Department,-113,pulmonary
+2579022,59,Male,Hispanic,177.8,Acute Care/Floor,-5110,cardiovascular
+2580677,86,Female,Caucasian,165.1,unknown,-91,cardiovascular
+2580992,32,Male,Caucasian,195.6,Emergency Department,0,toxicology
+2581351,53,Female,Caucasian,,Emergency Department,-280,pulmonary
+2583107,82,Female,Caucasian,167.6,unknown,-56,neurologic
+2584022,40,Female,Caucasian,165,Emergency Department,-53,cardiovascular
+2585711,57,Male,Caucasian,177.8,Operating Room,0,pulmonary
+2586921,82,Female,Caucasian,165.1,Emergency Department,-5,neurologic
+2587791,63,Male,Hispanic,165,Emergency Department,-125,cardiovascular
+2588265,66,Male,Caucasian,175,Direct Admit,0,cardiovascular
+2589190,56,Male,Caucasian,177.8,Emergency Department,-441,cardiovascular
+2589516,51,Male,Caucasian,183,unknown,-2411,pulmonary
+2589698,85,Female,Caucasian,66,Emergency Department,-163,cardiovascular
+2592641,63,Male,Caucasian,170,Emergency Department,-356,pulmonary
+2593036,73,Female,Caucasian,162.6,Emergency Department,-69,cardiovascular
+2593741,62,Female,Caucasian,160,Floor,-1390,cardiovascular
+2594234,61,Female,,168,Emergency Department,0,infectious diseases
+2594608,60,Female,Caucasian,170,Emergency Department,8169,endocrine
+2595322,29,Female,Other/Unknown,167.6,Emergency Department,-112,toxicology
+2595334,80,Male,African American,173,Emergency Department,-161,cardiovascular
+2595771,58,Female,Caucasian,168,Emergency Department,-24,cardiovascular
+2595884,> 89,Male,Caucasian,170,Acute Care/Floor,-3750,pulmonary
+2596753,18,Female,Caucasian,170,Emergency Department,-246,endocrine
+2597116,67,Female,Caucasian,165.1,Acute Care/Floor,-128,cardiovascular
+2597268,67,Male,Caucasian,188,Emergency Department,-385,endocrine
+2597776,84,Male,Caucasian,165.1,Direct Admit,-235,cardiovascular
+2597777,84,Male,Caucasian,165.1,Direct Admit,-10529,pulmonary
+2597803,74,Female,Caucasian,163,Emergency Department,-1530,cardiovascular
+2598769,59,Male,Other/Unknown,178,Acute Care/Floor,-7567,cardiovascular
+2599455,57,Female,Caucasian,162.6,Emergency Department,-162,other
+2600767,> 89,Male,Caucasian,178,Acute Care/Floor,-261,cardiovascular
+2600791,19,Male,Caucasian,175.3,Emergency Department,0,toxicology
+2601053,77,Male,Caucasian,178,Emergency Department,-1763,gastrointestinal
+2601684,67,Male,Caucasian,175.26,Emergency Department,-123,cardiovascular
+2602528,80,Male,Caucasian,180,Floor,-2484,pulmonary
+2603071,19,Male,African American,172.7,Operating Room,-59,burns/trauma
+2603273,68,Male,Other/Unknown,168,Emergency Department,-127,gastrointestinal
+2603291,79,Male,Caucasian,178,Emergency Department,-654,cardiovascular
+2604431,83,Female,Caucasian,163.8,Emergency Department,-99,cardiovascular
+2606115,64,Male,Caucasian,182.8,Emergency Department,-90,pulmonary
+2606739,84,Female,Caucasian,142.2,Operating Room,-11381,gastrointestinal
+2607173,52,Male,Caucasian,173,Emergency Department,-2346,pulmonary
+2607275,75,Female,Caucasian,152.4,Emergency Department,-219,cardiovascular
+2607501,34,Male,Caucasian,150,Operating Room,-1100,cardiovascular
+2607903,65,Male,Caucasian,175,Operating Room,-516,cardiovascular
+2608568,82,Female,Caucasian,168,Direct Admit,0,gastrointestinal
+2608936,57,Male,Caucasian,172.7,Emergency Department,-494,renal
+2609132,29,Female,Caucasian,163,Emergency Department,-19,toxicology
+2609672,> 89,Female,Caucasian,160,Acute Care/Floor,-815,infectious diseases
+2609955,79,Male,Caucasian,173,Emergency Department,2287,cardiovascular
+2610399,> 89,Female,Caucasian,157.5,Emergency Department,-297,cardiovascular
+2611237,75,Male,Caucasian,180,Emergency Department,-174,gastrointestinal
+2611440,74,Male,Caucasian,175,Emergency Department,-331,cardiovascular
+2611778,56,Male,Caucasian,170,Emergency Department,0,burns/trauma
+2614028,54,Female,Caucasian,155,Emergency Department,-258,infectious diseases
+2614646,40,Male,Caucasian,178,Emergency Department,-2359,gastrointestinal
+2614647,40,Male,Caucasian,178,Emergency Department,-909,gastrointestinal
+2616371,37,Female,Caucasian,160,Emergency Department,0,toxicology
+2618178,35,Male,Caucasian,203.2,Acute Care/Floor,-871,other
+2618534,22,Male,Caucasian,185.42,Emergency Department,-190,toxicology
+2619844,74,Male,Caucasian,175,Emergency Department,0,pulmonary
+2621338,58,Female,Caucasian,175,Direct Admit,-105,pulmonary
+2621632,64,Female,Caucasian,165.1,unknown,-106,cardiovascular
+2621948,74,Male,Caucasian,175,Emergency Department,-90,cardiovascular
+2622133,74,Male,Caucasian,65.98,Operating Room,-381,neurologic
+2622491,51,Male,Caucasian,187.96,Emergency Department,-91,toxicology
+2622629,89,Male,Caucasian,172.7,Emergency Department,-57,other
+2623519,81,Male,Caucasian,180,Emergency Department,-193,cardiovascular
+2625804,62,Male,Caucasian,170.2,Emergency Department,-56,cardiovascular
+2627050,79,Male,Caucasian,168,Emergency Department,-162,cardiovascular
+2627270,71,Male,Caucasian,179.1,Acute Care/Floor,-2534,cardiovascular
+2627574,> 89,Female,Caucasian,157.5,Emergency Department,-519,cardiovascular
+2628192,52,Male,Caucasian,172.7,Emergency Department,-33,cardiovascular
+2628523,45,Male,Caucasian,185,unknown,-1,cardiovascular
+2628859,84,Male,Caucasian,178,Emergency Department,-179,pulmonary
+2629735,57,Male,Caucasian,178,Emergency Department,0,gastrointestinal
+2630349,> 89,Male,Caucasian,168,Emergency Department,-115,pulmonary
+2630865,56,Male,Caucasian,177.8,Emergency Department,-154,pulmonary
+2631050,56,Female,Caucasian,173,Emergency Department,-232,endocrine
+2632476,58,Male,Caucasian,173,Floor,-864,pulmonary
+2632637,35,Male,Caucasian,200.7,Acute Care/Floor,-924,cardiovascular
+2634628,89,Female,Caucasian,,Floor,-13479,neurologic
+2635167,82,Male,African American,172.7,Emergency Department,-14578,cardiovascular
+2635168,82,Male,African American,172.7,Emergency Department,-74,cardiovascular
+2635556,84,Male,Caucasian,170,Floor,-26926,pulmonary
+2635557,84,Male,Caucasian,170,Floor,-16935,pulmonary
+2637542,84,Male,Caucasian,188,Floor,8696,pulmonary
+2637669,55,Female,Other/Unknown,155,Emergency Department,-91,renal
+2639649,72,Female,Caucasian,160,Emergency Department,-99,cardiovascular
+2642496,67,Male,Caucasian,175,Operating Room,-353,cardiovascular
+2643910,86,Male,Caucasian,170.18,Operating Room,-8908,gastrointestinal
+2644671,71,Male,Caucasian,194.3,Direct Admit,0,pulmonary
+2644765,55,Female,Caucasian,160,Emergency Department,-119,endocrine
+2645295,53,Male,Caucasian,180.3,Emergency Department,-98,cardiovascular
+2645565,76,Male,Caucasian,175,Emergency Department,-152,cardiovascular
+2646210,62,Male,Caucasian,190,Emergency Department,-224,pulmonary
+2669317,66,Male,Caucasian,175.3,Emergency Department,-508,cardiovascular
+2670190,84,Female,Caucasian,162.6,Emergency Department,-5373,renal
+2670191,84,Female,Caucasian,162.6,Emergency Department,-350,renal
+2672387,36,Female,Caucasian,154.9,Emergency Department,-166,cardiovascular
+2672664,34,Male,Caucasian,170.2,unknown,-1927,renal
+2673309,38,Male,Caucasian,172.7,unknown,-211,burns/trauma
+2675931,65,Male,Caucasian,172.7,unknown,-159,neurologic
+2677807,76,Male,Caucasian,182.9,Recovery Room,-311,cardiovascular
+2678186,86,Female,Other/Unknown,142.2,unknown,-202,cardiovascular
+2681532,73,Male,Caucasian,188,Emergency Department,-222,infectious diseases
+2682904,77,Male,Caucasian,162.6,Step-Down Unit (SDU),-10143,cardiovascular
+2683496,60,Male,Caucasian,177.8,unknown,-3180,gastrointestinal
+2684065,86,Male,Caucasian,170.2,Floor,-3103,cardiovascular
+2684386,70,Male,Hispanic,165.1,Direct Admit,-73,gastrointestinal
+2684922,39,Male,Hispanic,58.8,Emergency Department,-315,gastrointestinal
+2685279,42,Male,Other/Unknown,152.4,Emergency Department,-223,cardiovascular
+2685325,32,Male,Caucasian,180.3,Operating Room,-536,pulmonary
+2686685,59,Male,Caucasian,172.7,unknown,-11442,cardiovascular
+2687617,19,Male,Caucasian,167.6,Emergency Department,-850,toxicology
+2687675,36,Male,Hispanic,188,Direct Admit,-220,neurologic
+2687785,72,Male,Caucasian,172.7,Emergency Department,-517,cardiovascular
+2688195,70,Male,Caucasian,167,unknown,-590,cardiovascular
+2688697,77,Male,Caucasian,167.6,Operating Room,-429,pulmonary
+2688891,27,Male,Caucasian,172.7,Operating Room,-470,other
+2689235,55,Female,Asian,155,Emergency Department,-20,cardiovascular
+2689919,> 89,Male,Caucasian,172.7,unknown,-345,cardiovascular
+2690269,64,Female,Asian,0.3,unknown,-464,cardiovascular
+2691019,72,Male,Other/Unknown,162.6,Floor,-1172,pulmonary
+2692124,75,Male,Caucasian,182.9,unknown,-964,cardiovascular
+2692154,65,Male,Caucasian,177.8,Emergency Department,-210,burns/trauma
+2692183,48,Male,Caucasian,180.3,Emergency Department,-338,renal
+2692627,35,Male,Caucasian,182.9,unknown,-393,toxicology
+2694334,55,Male,Caucasian,175.3,Emergency Department,-387,endocrine
+2694451,42,Male,Caucasian,182.9,unknown,-493,cardiovascular
+2694459,46,Male,Asian,152.4,unknown,-1411,gastrointestinal
+2694977,33,Male,Hispanic,170.2,unknown,-730,neurologic
+2695180,69,Male,Caucasian,182.9,unknown,-314,cardiovascular
+2696071,64,Male,Caucasian,175.3,unknown,-166,pulmonary
+2696352,69,Female,Caucasian,163.8,unknown,0,gastrointestinal
+2696749,49,Male,Caucasian,173,Emergency Department,-85,pulmonary
+2699440,49,Female,Caucasian,165.1,unknown,-375,cardiovascular
+2702636,40,Male,Hispanic,165.1,Emergency Department,-321,neurologic
+2703113,44,Male,African American,196,Emergency Department,-157,cardiovascular
+2704188,84,Female,Hispanic,157.5,Emergency Department,-556,renal
+2705166,76,Male,Caucasian,172.7,Floor,-2943,gastrointestinal
+2705983,25,Male,Caucasian,168,unknown,-127,toxicology
+2707013,> 89,Female,Hispanic,121.9,Operating Room,-649,gastrointestinal
+2707485,85,Male,Caucasian,,unknown,-2345,pulmonary
+2707486,85,Male,Caucasian,,unknown,-11383,cardiovascular
+2708358,> 89,Male,Caucasian,170.2,Emergency Department,-303,cardiovascular
+2708837,75,Male,Caucasian,177.8,Floor,-19985,infectious diseases
+2709370,68,Male,Caucasian,168,unknown,-421,infectious diseases
+2712431,83,Male,Hispanic,177.8,Emergency Department,-177,cardiovascular
+2712662,41,Male,Hispanic,175.3,Emergency Department,-185,neurologic
+2713393,> 89,Male,Caucasian,185.4,Floor,-1127,gastrointestinal
+2713577,58,Male,Caucasian,172.72,Emergency Department,-33,burns/trauma
+2714092,32,Male,Caucasian,193,Emergency Department,-336,infectious diseases
+2714202,59,Male,Caucasian,165.1,Emergency Department,-500,infectious diseases
+2714303,28,Male,Hispanic,170.2,Emergency Department,-182,neurologic
+2714634,35,Male,Hispanic,175.3,unknown,-100,toxicology
+2715137,36,Female,Caucasian,154.9,Emergency Department,-215,endocrine
+2716616,84,Male,Caucasian,177.8,unknown,-6563,cardiovascular
+2716852,80,Male,Caucasian,171,Recovery Room,-426,cardiovascular
+2718495,44,Male,Caucasian,177.8,Emergency Department,-434,cardiovascular
+2720598,42,Male,Hispanic,157.5,unknown,-179,neurologic
+2721402,18,Male,Caucasian,178,Recovery Room,-557,neurologic
+2721454,62,Male,Caucasian,175,Emergency Department,0,cardiovascular
+2723117,40,Male,Caucasian,185.4,Emergency Department,-422,gastrointestinal
+2724119,68,Female,Caucasian,160,unknown,-399,infectious diseases
+2724225,76,Female,Caucasian,165.1,Emergency Department,-329,cardiovascular
+2724252,65,Male,Hispanic,157.5,unknown,-249,endocrine
+2724441,60,Female,Caucasian,157,unknown,-131,cardiovascular
+2725629,83,Male,Caucasian,175.3,unknown,-3305,other
+2726655,33,Male,Hispanic,180.3,unknown,-517,toxicology
+2726926,72,Male,Caucasian,175,Operating Room,-521,cardiovascular
+2727377,87,Male,Caucasian,157.5,Emergency Department,-643,infectious diseases
+2728472,54,Male,Caucasian,177.8,Emergency Department,-298,pulmonary
+2729111,51,Female,Caucasian,154.9,unknown,-639,gastrointestinal
+2729266,76,Male,Caucasian,175.3,Operating Room,-297,other
+2729735,87,Male,Caucasian,177.8,unknown,-1213,infectious diseases
+2732669,47,Male,Hispanic,173,Direct Admit,-8,infectious diseases
+2733462,22,Male,Other/Unknown,150,Emergency Department,-349,endocrine
+2733542,71,Male,Caucasian,178,Operating Room,-715,cardiovascular
+2734372,72,Male,Caucasian,175.3,unknown,-350,cardiovascular
+2735284,75,Male,Caucasian,183,Emergency Department,-152,cardiovascular
+2735374,73,Female,Caucasian,157.5,unknown,-282,cardiovascular
+2735662,83,Female,Caucasian,170,unknown,-89,infectious diseases
+2737087,78,Female,Hispanic,154.9,Emergency Department,-296,cardiovascular
+2737587,84,Male,Caucasian,167.6,unknown,-143,gastrointestinal
+2737792,84,Male,Caucasian,185.4,Operating Room,-1834,gastrointestinal
+2738362,52,Male,Caucasian,170.2,Direct Admit,-72,cardiovascular
+2739712,66,Female,Hispanic,165.1,Direct Admit,-38,neurologic
+2740390,67,Male,Caucasian,180.3,Floor,-1499,cardiovascular
+2740440,65,Male,Caucasian,170.2,Emergency Department,-166,endocrine
+2740764,55,Male,Other/Unknown,177.8,Emergency Department,-131,cardiovascular
+2740973,19,Male,Caucasian,182.9,Floor,-1232,infectious diseases
+2742035,70,Male,Hispanic,180,unknown,0,gastrointestinal
+2742509,55,Male,Caucasian,180.3,Emergency Department,-412,neurologic
+2743112,28,Male,Caucasian,170.2,Emergency Department,-430,toxicology
+2743241,66,Female,Caucasian,157.5,Floor,-291,gastrointestinal
+2744115,69,Male,Caucasian,170,unknown,-599,pulmonary
+2745039,58,Male,Caucasian,188,Operating Room,-324,cardiovascular
+2747029,> 89,Male,Caucasian,177,Direct Admit,-284,cardiovascular
+2747417,52,Male,Caucasian,185.4,Emergency Department,-339,pulmonary
+2747612,74,Male,Caucasian,172.7,unknown,-161,neurologic
+2748974,66,Male,Caucasian,175,unknown,-82,cardiovascular
+2749424,36,Female,Caucasian,154.9,unknown,-527,endocrine
+2750255,53,Male,Caucasian,175,Floor,-2353,neurologic
+2751276,55,Female,Asian,155,Emergency Department,-82,infectious diseases
+2752622,81,Female,Caucasian,152.4,Emergency Department,-780,infectious diseases
+2753471,62,Male,Hispanic,180.3,unknown,-13675,gastrointestinal
+2754365,60,Male,Caucasian,168,Emergency Department,-481,pulmonary
+2754778,70,Male,Caucasian,182.9,Other Hospital,-16,cardiovascular
+2755766,75,Male,Caucasian,185.4,unknown,-381,cardiovascular
+2756945,47,Male,Hispanic,175,unknown,-81,neurologic
+2757872,67,Male,Other/Unknown,182.9,Operating Room,-154,cardiovascular
+2758157,70,Male,Caucasian,177.8,unknown,-246,cardiovascular
+2758779,52,Male,Caucasian,168,unknown,-128,infectious diseases
+2759105,72,Male,Caucasian,160,Operating Room,-566,other
+2759559,82,Male,Caucasian,172.7,unknown,-911,pulmonary
+2760099,56,Male,Caucasian,182.9,unknown,-700,pulmonary
+2761246,69,Male,Caucasian,186.7,unknown,-359,gastrointestinal
+2761777,83,Male,Caucasian,157.5,unknown,-1128,cardiovascular
+2764039,45,Male,Caucasian,190.5,unknown,-421,neurologic
+2764138,74,Male,Caucasian,185.4,unknown,-6,pulmonary
+2764328,81,Female,Caucasian,167.6,unknown,-301,infectious diseases
+2766005,62,Male,Caucasian,180.3,unknown,-2313,gastrointestinal
+2767923,36,Female,Caucasian,154.9,unknown,-417,cardiovascular
+2768566,31,Male,Hispanic,170,unknown,-58,cardiovascular
+2773804,23,Male,Caucasian,178,unknown,-111,neurologic
+2774467,46,Male,Caucasian,188,Emergency Department,-226,endocrine
+2774569,70,Male,Caucasian,177.8,Emergency Department,-863,cardiovascular
+2774779,83,Male,Other/Unknown,172.7,Emergency Department,-175,renal
+2774892,62,Male,Caucasian,165.1,Emergency Department,-361,burns/trauma
+2776590,75,Male,Caucasian,180,unknown,-1,gastrointestinal
+2778278,89,Male,Hispanic,167.6,Direct Admit,-129,cardiovascular
+2778495,64,Male,Other/Unknown,178,Emergency Department,-44,pulmonary
+2781128,28,Male,Caucasian,188,Floor,-8128,infectious diseases
+2781413,60,Female,Caucasian,152.4,unknown,-293,cardiovascular
+2784403,65,Female,Hispanic,152.4,Emergency Department,-7239,cardiovascular
+2784404,65,Female,Hispanic,152.4,Emergency Department,-39199,other
+2784405,65,Female,Hispanic,152.4,Emergency Department,-171,cardiovascular
+2786504,39,Male,Caucasian,185,unknown,-32061,gastrointestinal
+2786505,39,Male,Caucasian,185,unknown,-10132,gastrointestinal
+2786506,39,Male,Caucasian,185,unknown,-278,gastrointestinal
+2787456,38,Female,Hispanic,173,unknown,-791,other
+2787683,> 89,Male,Caucasian,180.3,Emergency Department,-318,gastrointestinal
+2787684,> 89,Male,Caucasian,180.3,Emergency Department,-309,gastrointestinal
+2788588,54,Female,Caucasian,152,unknown,-151,neurologic
+2791385,88,Male,Native American,178,Emergency Department,-51,cardiovascular
+2792350,69,Male,Hispanic,160,Emergency Department,-606,cardiovascular
+2793359,75,Male,Caucasian,183,Operating Room,-1313,cardiovascular
+2793829,67,Male,Asian,177.8,Emergency Department,-155,neurologic
+2794087,55,Female,Caucasian,154.9,unknown,-3977,pulmonary
+2794088,55,Female,Caucasian,154.9,unknown,-143,pulmonary
+2794381,83,Male,Caucasian,170,unknown,-761,cardiovascular
+2794541,85,Male,Caucasian,165.1,Recovery Room,-3216,gastrointestinal
+2795183,73,Male,Caucasian,180.3,Operating Room,-332,cardiovascular
+2795570,65,Male,Hispanic,172.7,Operating Room,-358,cardiovascular
+2796180,78,Male,Caucasian,177.8,Emergency Department,-326,cardiovascular
+2797147,66,Female,Caucasian,157.5,Emergency Department,-371,renal
+2798666,> 89,Male,Caucasian,173,Emergency Department,-681,pulmonary
+2798816,68,Male,Caucasian,175.3,unknown,-349,cardiovascular
+2800211,32,Male,Caucasian,182.9,Emergency Department,-390,toxicology
+2801211,74,Female,Caucasian,165.1,Emergency Department,-456,gastrointestinal
+2803818,63,Female,Hispanic,152.4,unknown,-940,cardiovascular
+2803940,47,Male,Caucasian,188,Operating Room,-366,cardiovascular
+2804045,33,Male,African American,165,Emergency Department,-162,pulmonary
+2804325,84,Female,Caucasian,154.9,Emergency Department,-238,cardiovascular
+2805423,82,Male,Caucasian,172.7,Operating Room,-432,cardiovascular
+2805897,82,Male,Caucasian,170,unknown,-276,neurologic
+2808515,57,Male,Caucasian,170.2,unknown,-7049,infectious diseases
+2812171,45,Male,Asian,190.5,unknown,-205,neurologic
+2812202,> 89,Male,Caucasian,172.7,unknown,-263,neurologic
+2813307,30,Female,Caucasian,163,Emergency Department,-126,neurologic
+2814579,83,Male,Caucasian,182.9,Operating Room,-2843,cardiovascular
+2818861,> 89,Male,Caucasian,170.2,Emergency Department,-321,cardiovascular
+2818995,68,Male,Hispanic,157.5,Emergency Department,-542,cardiovascular
+2819402,66,Male,Caucasian,182.9,unknown,-186,infectious diseases
+2819666,28,Male,Caucasian,188,Emergency Department,-8186,neurologic
+2820137,67,Male,Caucasian,170.2,unknown,-685,cardiovascular
+2820527,> 89,Male,Caucasian,160,unknown,-3236,pulmonary
+2821497,64,Female,Caucasian,167.6,unknown,-152,pulmonary
+2821884,75,Male,Other/Unknown,170.2,Emergency Department,-140,pulmonary
+2822610,56,Male,Caucasian,167.6,Emergency Department,-157,neurologic
+2823485,37,Male,Caucasian,172.7,Emergency Department,-479,neurologic
+2823486,37,Male,Caucasian,172.7,Emergency Department,-11201,neurologic
+2823926,68,Male,Caucasian,188,unknown,-265,cardiovascular
+2825734,64,Male,Caucasian,180.3,Operating Room,-500,neurologic
+2825782,53,Female,Caucasian,167.6,unknown,-383,neurologic
+2826676,68,Male,Caucasian,182.9,Emergency Department,-298,pulmonary
+2826931,79,Male,Caucasian,165.1,Emergency Department,-290,burns/trauma
+2827046,24,Male,Caucasian,177.8,unknown,-1308,neurologic
+2828835,62,Male,Caucasian,177.8,unknown,-273,pulmonary
+2829425,69,Male,Caucasian,178,Emergency Department,-121,pulmonary
+2831222,85,Male,Hispanic,162.6,Emergency Department,-206,cardiovascular
+2831316,35,Male,Caucasian,15.2,Operating Room,-3627,infectious diseases
+2831468,73,Male,Caucasian,172.7,Emergency Department,-158,cardiovascular
+2832104,65,Female,Caucasian,152.4,unknown,-611,cardiovascular
+2832466,67,Male,Caucasian,175.3,Operating Room,-469,pulmonary
+2832961,51,Male,Caucasian,180.3,unknown,-2764,neurologic
+2833930,48,Male,Caucasian,172.7,Emergency Department,-147,cardiovascular
+2833949,68,Male,Caucasian,157.5,unknown,-7,cardiovascular
+2834193,43,Male,Other/Unknown,152.4,unknown,-255,cardiovascular
+2835951,30,Male,African American,190.5,unknown,-682,burns/trauma
+2837644,88,Male,Asian,157,Emergency Department,-42,pulmonary
+2837926,20,Male,Hispanic,182.9,Emergency Department,-267,endocrine
+2838313,77,Male,Caucasian,180.3,unknown,-2390,cardiovascular
+2838819,58,Male,Caucasian,170.2,Operating Room,-1129,cardiovascular
+2839364,31,Male,Caucasian,177.8,Emergency Department,-330,toxicology
+2840521,57,Male,Caucasian,167.6,unknown,-140,burns/trauma
+2841583,83,Male,Caucasian,175.3,Operating Room,-8073,cardiovascular
+2841584,83,Male,Caucasian,175.3,Operating Room,-1844,cardiovascular
+2841585,83,Male,Caucasian,175.3,Operating Room,-337,cardiovascular
+2841632,57,Male,Caucasian,177.8,Floor,-546,neurologic
+2841895,60,Male,Caucasian,168,Floor,-256,infectious diseases
+2842748,84,Female,Caucasian,165.1,Emergency Department,-284,gastrointestinal
+2843984,32,Male,Hispanic,160,Emergency Department,-299,endocrine
+2846485,59,Male,Caucasian,165.1,Emergency Department,-227,cardiovascular
+2847097,76,Male,Asian,187.9,unknown,-160,cardiovascular
+2847703,74,Male,Caucasian,177.8,Floor,-4347,neurologic
+2848323,68,Male,Caucasian,167.6,Direct Admit,-4,cardiovascular
+2848336,51,Male,Caucasian,180,unknown,0,gastrointestinal
+2848387,54,Male,African American,196,Emergency Department,-104,pulmonary
+2848941,> 89,Male,Caucasian,165.1,unknown,-3473,gastrointestinal
+2849399,50,Male,Other/Unknown,182.9,unknown,-10,renal
+2849534,23,Male,Caucasian,185.4,unknown,-632,burns/trauma
+2851841,79,Female,Caucasian,160,unknown,-321,pulmonary
+2853320,83,Female,Caucasian,170,Emergency Department,-42,infectious diseases
+2853358,65,Female,Caucasian,157.5,Emergency Department,-250,cardiovascular
+2854941,69,Male,Caucasian,160,Operating Room,-3961,cardiovascular
+2855098,75,Male,Caucasian,177.8,unknown,-211,cardiovascular
+2856345,28,Male,Caucasian,188,unknown,-170,other
+2857326,48,Male,Caucasian,173,unknown,-147,infectious diseases
+2857777,83,Female,Caucasian,170.1,unknown,-97,renal
+2858139,75,Male,Caucasian,182.9,Direct Admit,-18,cardiovascular
+2859392,68,Male,Caucasian,170.2,Emergency Department,-297,endocrine
+2860223,56,Male,Caucasian,188,Emergency Department,-53,renal
+2860378,36,Female,Caucasian,154.9,unknown,-107,endocrine
+2860660,78,Male,Hispanic,160,Floor,-4589,infectious diseases
+2860661,78,Male,Hispanic,160,Floor,-422,infectious diseases
+2861097,72,Male,Caucasian,182.9,unknown,-443,burns/trauma
+2861910,20,Male,Caucasian,185.4,unknown,-381,endocrine
+2863968,48,Male,,170.2,Emergency Department,-105,cardiovascular
+2864521,22,Male,Caucasian,170,Emergency Department,-218,neurologic
+2866326,34,Male,Caucasian,170.2,Operating Room,-426,cardiovascular
+2866893,46,Male,Hispanic,165.1,Floor,-1493,infectious diseases
+2867190,77,Male,Asian,170,unknown,-452,cardiovascular
+2868265,79,Male,Caucasian,177.8,unknown,-1,cardiovascular
+2869280,55,Male,Caucasian,182.9,unknown,-428,gastrointestinal
+2869455,50,Female,Caucasian,167.6,Emergency Department,-285,endocrine
+2870391,68,Male,Caucasian,,Emergency Department,-260,cardiovascular
+2870997,62,Male,Hispanic,180.3,Operating Room,-1589,gastrointestinal
+2872638,63,Male,Caucasian,175,Direct Admit,-5,cardiovascular
+2872788,66,Male,Caucasian,163.8,unknown,-429,gastrointestinal
+2873230,87,Male,Caucasian,160,Emergency Department,-247,cardiovascular
+2873463,69,Male,Caucasian,177,Emergency Department,-120,cardiovascular
+2873466,73,Male,Caucasian,172.7,Emergency Department,-218,renal
+2875586,82,Male,Caucasian,188,Operating Room,-444,cardiovascular
+2876381,68,Male,Caucasian,182,unknown,-10420,cardiovascular
+2878847,37,Female,Caucasian,154.9,unknown,-228,gastrointestinal
+2879352,73,Female,Other/Unknown,168,unknown,-51,renal
+2879373,78,Female,Other/Unknown,144.8,unknown,-1829,cardiovascular
+2879465,45,Male,Caucasian,172.7,unknown,-405,cardiovascular
+2880131,64,Female,Other/Unknown,157.5,Emergency Department,-244,cardiovascular
+2883334,77,Male,Caucasian,175.3,Emergency Department,-96,pulmonary
+2885054,22,Male,Caucasian,177.8,Operating Room,-333,burns/trauma
+2886183,80,Male,Caucasian,173,unknown,-500,neurologic
+2886662,33,Male,Caucasian,170.2,unknown,-272,endocrine
+2887358,48,Female,Hispanic,165.1,unknown,-475,cardiovascular
+2891211,65,Male,Caucasian,177.8,Emergency Department,-323,cardiovascular
+2891492,66,Female,Caucasian,165.1,unknown,-136,cardiovascular
+2892403,69,Male,Caucasian,185.4,Floor,-2971,cardiovascular
+2892404,69,Male,Caucasian,185.4,Floor,-10376,cardiovascular
+2893348,68,Male,Caucasian,180.3,Floor,-1270,cardiovascular
+2893870,84,Male,Caucasian,175.3,Emergency Department,-165,gastrointestinal
+2893929,58,Male,Hispanic,182.9,unknown,-124,cardiovascular
+2894029,55,Female,Caucasian,155,Emergency Department,-860,pulmonary
+2895549,47,Male,Caucasian,185,unknown,-5837,gastrointestinal
+2898046,75,Female,Hispanic,152.4,Floor,-783,gastrointestinal
+2898513,46,Male,Caucasian,168,Emergency Department,-93,gastrointestinal
+2899929,81,Male,Caucasian,170,unknown,-653,other
+2900423,44,Male,Caucasian,167.6,Emergency Department,-237,infectious diseases
+2902156,55,Male,Caucasian,172.7,unknown,-835,toxicology
+2903553,86,Male,Asian,163,unknown,0,cardiovascular
+2903847,80,Male,Caucasian,152.4,Emergency Department,-1182,pulmonary
+2903848,80,Male,Caucasian,152.4,Emergency Department,-239,cardiovascular
+2906477,54,Male,Other/Unknown,185,Emergency Department,-8743,neurologic
+2906478,54,Male,Other/Unknown,185,Emergency Department,-181,neurologic
+2906936,88,Female,Caucasian,155,Operating Room,-930,burns/trauma
+2913443,67,Male,Caucasian,180.3,Recovery Room,-451,gastrointestinal
+2918903,79,Female,Caucasian,160,Direct Admit,-18,cardiovascular
+2921129,69,Male,Other/Unknown,180,Emergency Department,-119,cardiovascular
+2934903,85,Male,Caucasian,180,Other Hospital,-1,neurologic
+2935023,> 89,Male,Asian,165,Emergency Department,-432,cardiovascular
+2940544,83,Female,Caucasian,178,Emergency Department,-115,cardiovascular
+2942873,65,Male,Caucasian,173,Floor,-655,infectious diseases
+2943467,33,Female,Caucasian,170,Emergency Department,-92,toxicology
+2946465,64,Male,Other/Unknown,170,Recovery Room,-5983,pulmonary
+2948693,74,Female,Caucasian,158,unknown,-66,neurologic
+2958288,86,Female,Caucasian,154.9,Emergency Department,-2099,gastrointestinal
+2958289,86,Female,Caucasian,154.9,Emergency Department,-4360,gastrointestinal
+2958290,86,Female,Caucasian,154.9,Emergency Department,-173,gastrointestinal
+2960916,62,Female,African American,170,unknown,-7,endocrine
+2970589,57,Female,Caucasian,170.2,Floor,-181,pulmonary
+2973367,69,Male,Other/Unknown,117,Emergency Department,-131,neurologic
+2980454,67,Male,Other/Unknown,180,Emergency Department,-476,cardiovascular
+2983640,59,Male,African American,173,Floor,-488,gastrointestinal
+2989641,57,Female,Caucasian,173,Floor,-5010,pulmonary
+2989799,67,Male,Caucasian,193,Emergency Department,-130,gastrointestinal
+2990225,82,Female,Caucasian,158.8,unknown,-2064,neurologic
+2993915,53,Male,Other/Unknown,172,Recovery Room,-5230,neurologic
+2994833,72,Male,Caucasian,178,Emergency Department,-11,pulmonary
+2999209,66,Male,Caucasian,188,unknown,-580,other
+3001552,> 89,Male,Caucasian,185.4,Floor,-8211,pulmonary
+3003035,65,Male,Caucasian,188,unknown,-179,neurologic
+3003844,70,Male,Caucasian,180.3,Emergency Department,-91,cardiovascular
+3009480,69,Male,African American,188,unknown,-227,cardiovascular
+3011600,79,Male,Caucasian,188,unknown,-420,neurologic
+3012414,86,Female,Caucasian,170.2,unknown,-542,cardiovascular
+3017716,> 89,Female,African American,165.1,Emergency Department,-323,renal
+3019476,78,Male,Caucasian,188,Other Hospital,0,renal
+3021108,55,Male,Caucasian,190.5,unknown,-2045,pulmonary
+3021362,65,Male,Caucasian,182.9,Operating Room,-351,cardiovascular
+3023263,83,Male,Caucasian,183,unknown,0,cardiovascular
+3025797,85,Male,Caucasian,172.7,unknown,-550,other
+3027283,74,Male,Caucasian,180,Emergency Department,-132,cardiovascular
+3027284,74,Male,Caucasian,180,Emergency Department,-12406,cardiovascular
+3027681,67,Female,Caucasian,165.1,unknown,-616,cardiovascular
+3029353,> 89,Male,Caucasian,177.8,unknown,-143,pulmonary
+3029852,52,Female,Caucasian,157.5,unknown,-116,cardiovascular
+3030641,75,Male,Caucasian,180.3,unknown,-1486,cardiovascular
+3031944,75,Male,African American,203.2,unknown,-608,cardiovascular
+3033795,52,Male,Caucasian,182.9,unknown,-448,cardiovascular
+3033797,44,Female,Caucasian,149.9,unknown,-569,pulmonary
+3034194,56,Male,Caucasian,193,Emergency Department,0,pulmonary
+3035113,64,Female,Caucasian,162.6,Emergency Department,-18,pulmonary
+3035600,71,Female,Caucasian,160,Emergency Department,-4318,burns/trauma
+3035601,71,Female,Caucasian,160,Emergency Department,-488,pulmonary
+3037894,70,Female,Caucasian,157.5,Emergency Department,-172,infectious diseases
+3046540,69,Female,Caucasian,157.5,Emergency Department,-257,cardiovascular
+3046967,69,Female,Caucasian,165.1,Emergency Department,-115,cardiovascular
+3047675,45,Female,Caucasian,154.9,Emergency Department,-120,gastrointestinal
+3048982,83,Male,Caucasian,173,Floor,-465,toxicology
+3053511,25,Female,Caucasian,154.9,Floor,-1171,cardiovascular
+3057805,79,Female,Caucasian,160,Emergency Department,-795,cardiovascular
+3057806,79,Female,Caucasian,160,Emergency Department,-3814,cardiovascular
+3058804,71,Female,Caucasian,167.64,Emergency Department,-229,other
+3058972,82,Female,Caucasian,160,Emergency Department,-121,renal
+3060213,64,Female,Caucasian,162.6,Emergency Department,-27,pulmonary
+3066852,30,Male,Caucasian,172.7,Floor,-1518,neurologic
+3067309,75,Female,Caucasian,165.1,Emergency Department,-354,pulmonary
+3068380,36,Male,Caucasian,178,Emergency Department,-2,neurologic
+3069211,56,Female,Caucasian,157.5,Emergency Department,-67,neurologic
+3069831,66,Male,Caucasian,182.9,Emergency Department,-11,renal
+3070432,54,Male,Caucasian,167.6,Emergency Department,-92,pulmonary
+3072205,68,Female,African American,162.6,Emergency Department,-159,pulmonary
+3075364,63,Female,Caucasian,162.6,Floor,-138,pulmonary
+3075813,83,Male,Caucasian,177.8,Floor,-5013,pulmonary
+3078650,74,Female,Caucasian,154.9,Operating Room,-589,pulmonary
+3079543,72,Female,Caucasian,152.4,Emergency Department,-180,pulmonary
+3083539,78,Male,Caucasian,173,unknown,-80,pulmonary
+3085130,86,Female,Caucasian,165.1,Operating Room,-1106,cardiovascular
+3085970,62,Male,Caucasian,188,Emergency Department,0,neurologic
+3086265,83,Female,Caucasian,152.4,Emergency Department,-185,pulmonary
+3086494,34,Female,Caucasian,165.1,Emergency Department,-51,gastrointestinal
+3090122,77,Male,Caucasian,180.3,Emergency Department,-142,cardiovascular
+3092621,61,Male,Caucasian,170.18,Emergency Department,-108,cardiovascular
+3095720,88,Male,Caucasian,175.26,unknown,-172,pulmonary
+3097587,70,Female,Caucasian,160,Emergency Department,-116,cardiovascular
+3098570,57,Male,Caucasian,178,Emergency Department,-177,pulmonary
+3098657,53,Male,Caucasian,177.8,Emergency Department,-134,gastrointestinal
+3099676,65,Male,Caucasian,162.6,Emergency Department,-14,cardiovascular
+3100629,70,Male,Caucasian,182.9,Emergency Department,-126,other
+3103433,73,Female,Caucasian,149,Emergency Department,-10360,pulmonary
+3103434,73,Female,Caucasian,149,Emergency Department,0,pulmonary
+3111371,39,Male,Other/Unknown,162.6,Other Hospital,-119,neurologic
+3112232,21,Female,Caucasian,165.1,Emergency Department,-103,neurologic
+3112960,27,Female,Caucasian,170.2,Other Hospital,-116,renal
+3114713,83,Male,Caucasian,177.8,unknown,-32,cardiovascular
+3115052,75,Female,Caucasian,165.1,Operating Room,-1563,pulmonary
+3115505,42,Female,Caucasian,154.9,Emergency Department,-91,pulmonary
+3115660,61,Female,Caucasian,165.1,Chest Pain Center,-149,cardiovascular
+3116577,53,Female,Caucasian,160,Operating Room,-437,cardiovascular
+3119186,77,Female,Caucasian,149.9,Emergency Department,-107,pulmonary
+3124262,63,Male,Caucasian,185.4,Emergency Department,-13,pulmonary
+3124669,54,Male,Caucasian,170.18,Emergency Department,-58,toxicology
+3126933,47,Male,Caucasian,185.4,Emergency Department,-163,neurologic
+3127160,87,Male,Caucasian,172.7,Floor,-3285,cardiovascular
+3130379,41,Female,Caucasian,154.9,Floor,-1173,pulmonary
+3131438,80,Female,Caucasian,160,Operating Room,-1126,pulmonary
+3132106,83,Male,Caucasian,178,Emergency Department,-52,gastrointestinal
+3132505,61,Female,Caucasian,167.6,Emergency Department,-122,infectious diseases
+3132737,55,Male,African American,162.56,unknown,-9961,pulmonary
+3132859,49,Female,Caucasian,162.5,Emergency Department,-165,cardiovascular
+3133333,67,Male,Caucasian,172.2,unknown,-1848,gastrointestinal
+3133334,67,Male,Caucasian,172.2,unknown,-534,gastrointestinal
+3135484,64,Female,Caucasian,33.6,Emergency Department,-201,endocrine
+3136458,72,Female,Caucasian,157.5,Emergency Department,-173,pulmonary
+3136459,72,Female,Caucasian,157.5,Emergency Department,-5395,pulmonary
+3136586,29,Female,African American,,Emergency Department,-27,toxicology
+3136745,76,Male,Caucasian,177.8,Emergency Department,-571,pulmonary
+3137086,59,Male,Caucasian,178,Emergency Department,-10,gastrointestinal
+3140049,72,Male,Caucasian,165,Emergency Department,-239,cardiovascular
+3140152,39,Male,Caucasian,163,Emergency Department,-246,pulmonary
+3140159,75,Male,African American,193,Emergency Department,-74,neurologic
+3140371,71,Male,Caucasian,170.1,Emergency Department,-54,cardiovascular
+3140490,59,Male,African American,169,Floor,-4082,pulmonary
+3140613,54,Male,Caucasian,190.5,Emergency Department,-70,cardiovascular
+3141811,49,Female,Caucasian,172.7,Emergency Department,-57,infectious diseases
+3142431,47,Male,Caucasian,195.6,Emergency Department,-247,other
+3142620,22,Male,Caucasian,175.3,Emergency Department,-123,endocrine
+3142950,63,Female,Caucasian,152.4,Emergency Department,-86,gastrointestinal
+3145340,31,Male,Caucasian,178,Emergency Department,-34,endocrine
+3145378,> 89,Male,Caucasian,165,Emergency Department,-185,cardiovascular
+3148232,30,Male,Caucasian,178,Emergency Department,-104,endocrine
+3148506,54,Male,Caucasian,175,Operating Room,-373,cardiovascular
+3148582,82,Male,Caucasian,177.8,Emergency Department,-286,pulmonary
+3148997,73,Male,Caucasian,172.7,Floor,-4670,gastrointestinal
+3149046,71,Female,Caucasian,159.7,unknown,-69,cardiovascular
+3149078,56,Male,Caucasian,179,Emergency Department,-396,cardiovascular
+3149424,63,Female,Caucasian,154.9,Floor,-224,pulmonary
+3149587,26,Male,Caucasian,142.2,Emergency Department,-92,pulmonary
+3149953,81,Female,Caucasian,165,Emergency Department,-267,pulmonary
+3150608,64,Male,Caucasian,170.1,Emergency Department,-135,burns/trauma
+3150622,81,Male,Caucasian,,Emergency Department,-155,cardiovascular
+3150970,24,Female,Caucasian,172,Emergency Department,-434,pulmonary
+3151889,62,Male,Caucasian,175.2,unknown,-6055,infectious diseases
+3151890,62,Male,Caucasian,175.2,unknown,-313,infectious diseases
+3153393,53,Female,Caucasian,152,Emergency Department,-185,cardiovascular
+3153894,68,Male,Caucasian,172,Emergency Department,-111,other
+3154460,61,Male,African American,175.3,Emergency Department,-290,renal
+3154481,71,Male,Caucasian,178,Emergency Department,-102,pulmonary
+3154626,76,Male,Caucasian,170,Emergency Department,-665,pulmonary
+3155533,82,Male,Caucasian,177.8,Emergency Department,-1359,pulmonary
+3155534,82,Male,Caucasian,177.8,Emergency Department,-16124,pulmonary
+3155694,72,Male,Caucasian,170.2,Operating Room,-456,cardiovascular
+3155988,37,Female,Caucasian,170.1,Emergency Department,-133,toxicology
+3158919,74,Male,Caucasian,,Floor,-674,pulmonary
+3159124,68,Male,Caucasian,188,Emergency Department,-121,cardiovascular
+3159526,58,Male,Caucasian,170,Floor,-282,endocrine
+3159826,66,Male,Caucasian,172.7,Emergency Department,-215,cardiovascular
+3160363,34,Female,Caucasian,155,Emergency Department,-126,endocrine
+3160468,40,Male,Caucasian,177.8,Emergency Department,-298,infectious diseases
+3163046,57,Male,African American,182.9,unknown,-768,other
+3163373,57,Male,African American,180,Floor,-56063,pulmonary
+3163374,57,Male,African American,180,Floor,-11331,pulmonary
+3173599,67,Female,African American,150,Emergency Department,-268,cardiovascular
+3177225,60,Female,African American,170,unknown,-4314,cardiovascular
+3178242,24,Male,Caucasian,168,unknown,-852,gastrointestinal
+3183245,40,Female,African American,165.1,unknown,-277,pulmonary
+3193216,66,Female,African American,165,unknown,-381,neurologic
+3199448,63,Male,African American,183,Emergency Department,-347,cardiovascular
+3199449,63,Male,African American,183,Emergency Department,-3430,cardiovascular
+3204052,56,Male,Caucasian,185.4,unknown,-148,cardiovascular
+3205101,> 89,Male,Caucasian,170,Emergency Department,-225,neurologic
+3205786,65,Male,Caucasian,177.2,unknown,-624,neurologic
+3206460,40,Male,Hispanic,175.3,unknown,-81,pulmonary
+3207230,72,Male,Caucasian,172.72,Emergency Department,-67,gastrointestinal
+3207237,76,Female,Caucasian,149.9,Operating Room,-585,gastrointestinal
+3207238,76,Female,Caucasian,149.9,Operating Room,-12854,pulmonary
+3208300,76,Male,Caucasian,177.8,unknown,-180,cardiovascular
+3208830,> 89,Male,Caucasian,172.7,Emergency Department,-53,neurologic
+3210585,68,Female,Caucasian,160,unknown,-219,pulmonary
+3211257,65,Male,Caucasian,167.6,unknown,-107,neurologic
+3211766,73,Male,Caucasian,163,unknown,-8,pulmonary
+3212957,80,Male,Caucasian,182.9,unknown,-179,cardiovascular
+3214193,21,Male,Caucasian,180.3,unknown,-146,neurologic
+3214314,89,Male,Caucasian,172.7,unknown,-25,cardiovascular
+3216824,69,Male,Caucasian,170,unknown,-2,endocrine
+3216931,77,Male,Caucasian,170.18,unknown,-8,neurologic
+3220742,84,Male,Caucasian,70,unknown,-573,neurologic
+3223097,73,Male,Caucasian,172.7,unknown,-86,gastrointestinal
+3223634,87,Male,Caucasian,177.8,unknown,-924,cardiovascular
+3225577,79,Male,Caucasian,182.9,Emergency Department,-677,other
+3225620,70,Male,Caucasian,177.8,unknown,-463,gastrointestinal
+3225660,74,Male,Caucasian,183,unknown,-7,cardiovascular
+3225692,86,Male,Caucasian,162.6,Emergency Department,-23,cardiovascular
+3230480,59,Male,Caucasian,167,Emergency Department,-338,neurologic
+3230503,72,Male,Caucasian,175.3,unknown,-69,cardiovascular
+3231363,79,Male,Caucasian,170,Other Hospital,-21,cardiovascular
+3233306,77,Male,Caucasian,172.7,Floor,-374,pulmonary
+3233620,77,Male,Caucasian,180.34,Recovery Room,-328,gastrointestinal
+3233997,49,Male,Caucasian,182.9,unknown,-147,burns/trauma
+3235765,69,Female,Caucasian,157.48,Emergency Department,-65,cardiovascular
+3237226,63,Female,Caucasian,162.56,Floor,-14712,pulmonary
+3237333,73,Male,Caucasian,165,Direct Admit,-18,gastrointestinal
+3237558,81,Male,Caucasian,190.5,unknown,-650,gastrointestinal
+3238529,72,Male,Caucasian,172.72,Emergency Department,-253,gastrointestinal
+3238816,40,Male,Hispanic,175.26,Emergency Department,-308,pulmonary
+3239262,88,Male,Caucasian,167.6,Operating Room,-708,gastrointestinal
+3239375,67,Male,Caucasian,177.8,unknown,-671,cardiovascular
+3241571,84,Male,Caucasian,170.2,unknown,-67,burns/trauma
+3242157,62,Male,Caucasian,175.3,unknown,-270,neurologic
+3242308,73,Male,Caucasian,172.7,Emergency Department,-4180,gastrointestinal
+3242309,73,Male,Caucasian,172.7,Emergency Department,-173,gastrointestinal
+3243205,79,Female,African American,160,unknown,-61,neurologic
+3244585,87,Male,African American,177.8,unknown,-354,neurologic
+3245076,86,Female,Caucasian,175.3,Floor,-1777,gastrointestinal
+3246445,72,Male,Caucasian,172.7,unknown,-1638,neurologic
+3246790,81,Male,Caucasian,170.18,Emergency Department,-70,renal
+3327376,56,Male,Caucasian,188,Emergency Department,-249,cardiovascular
+3329305,72,Male,Caucasian,177.8,Emergency Department,-67,cardiovascular
+3331430,50,Male,Caucasian,188,Floor,-2075,neurologic
+3334456,55,Male,Caucasian,188,Operating Room,-445,other
+3334564,51,Male,Caucasian,188,Emergency Department,-463,burns/trauma
+3335354,85,Male,Caucasian,182.9,Step-Down Unit (SDU),-3446,cardiovascular
+3335380,70,Female,Caucasian,160,Step-Down Unit (SDU),-334,neurologic
+3335782,82,Male,Caucasian,172.7,Direct Admit,-9,renal
+3344942,63,Female,Caucasian,165.1,Operating Room,-35621,cardiovascular
+3344945,63,Female,Caucasian,165.1,Operating Room,-51454,toxicology
+3346187,55,Male,Caucasian,188,Emergency Department,-490,gastrointestinal
+3346866,50,Male,Caucasian,175.3,Emergency Department,-247,pulmonary
+3347501,73,Male,Caucasian,172.7,Floor,-1308,pulmonary
+3348292,87,Female,Caucasian,160,Emergency Department,-119,gastrointestinal
+3348409,71,Male,African American,180.3,Floor,0,gastrointestinal
+3351297,52,Male,African American,159,Direct Admit,0,cardiovascular
+3351763,62,Female,Caucasian,165.1,Operating Room,-68242,other
+3352230,41,Male,African American,177.8,Direct Admit,-1512,cardiovascular
+3352231,41,Male,African American,177.8,Direct Admit,-136,cardiovascular
+3352333,72,Male,Caucasian,177.8,Other Hospital,0,gastrointestinal
+3353113,50,Male,Caucasian,188,Floor,-1698,neurologic
