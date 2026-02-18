@@ -1,10 +1,14 @@
-import click
-from expailens.dashboard.app import app
 
-@click.command()
-@click.option("--port", default=5000)
-def run_dashboard(port):
-    app.run(port=port)
+import typer
+from .runner import publish_run
+
+app = typer.Typer()
+
+@app.command()
+def report(run_dir: str):
+    import os
+    os.system(f"streamlit run -q - " + \
+              f"<<'EOF'\nfrom expailens.dashboard.app import main\nmain()\nEOF")
 
 if __name__ == "__main__":
-    run_dashboard()
+    app()

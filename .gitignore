@@ -211,3 +211,4 @@ __marimo__/
 /expai_lens_logs/
 /data/medsynth
 /models/medsynth/tfidf_xgb_pipeline.joblib
+/models/medsynth/runs/
