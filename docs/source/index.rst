@@ -18,4 +18,4 @@ xaicompare documentation
 
 To run the dashboard:
 
-``streamlit run xaicompare/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb``
+``streamlit run xaicompare/dashboard/app.py -- --run runs/ex1_xgboost_short``
