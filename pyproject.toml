@@ -24,10 +24,8 @@ dependencies = [
 ]
 
 
-
 [project.scripts]
-xaicompare = "xaicompare.cli:run_dashboard"
-
+xaicompare-dash = "xaicompare.cli:main"
 
 # Tell setuptools where to find code and how to determine the version
 [tool.setuptools]

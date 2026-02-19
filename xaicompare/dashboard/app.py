@@ -1,14 +1,12 @@
 # xaicompare/dashboard/app.py
-
 from __future__ import annotations
 import json
 import sys
 from pathlib import Path
-from typing import Tuple
+from typing import Tuple, List
 
 import pandas as pd
 import streamlit as st
-
 
 # ---------- Helpers ----------
 def find_latest_run(base: Path = Path("runs")) -> Path | None:
@@ -24,12 +22,19 @@ def find_latest_run(base: Path = Path("runs")) -> Path | None:
     candidates.sort(key=lambda x: x[1], reverse=True)
     return candidates[0][0]
 
+def list_valid_runs(base: Path = Path("runs")) -> List[Path]:
+    runs: List[Path] = []
+    if base.exists():
+        for p in base.iterdir():
+            if p.is_dir() and (p / "meta.json").exists():
+                runs.append(p)
+    runs.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    return runs
 
 def parse_cli_run_arg(default: str | None = None) -> str | None:
     """
     Read --run from sys.argv AFTER the '--' separator that Streamlit uses.
-    Example launch:
-        streamlit run xaicompare/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb
+    Also works if the CLI wrapper passed a positional run (we forward it as --run).
     """
     if "--" in sys.argv:
         idx = sys.argv.index("--")
@@ -45,7 +50,6 @@ def parse_cli_run_arg(default: str | None = None) -> str | None:
             return a.split("=", 1)[1]
     return default
 
-
 def get_run_from_query_params() -> str | None:
     """Support ?run=... in the URL."""
     try:
@@ -55,7 +59,6 @@ def get_run_from_query_params() -> str | None:
     except Exception:
         return None
 
-
 def load_run(run_dir: str) -> Tuple[dict, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     p = Path(run_dir)
     meta = json.loads((p / "meta.json").read_text())
@@ -64,7 +67,6 @@ def load_run(run_dir: str) -> Tuple[dict, pd.DataFrame, pd.DataFrame, pd.DataFra
     local = pd.read_parquet(p / "shap_tree_local.parquet")
     text = pd.read_parquet(p / "text_index.parquet")
     return meta, preds, global_imp, local, text
-
 
 # ---------- Main ----------
 def main():
@@ -85,21 +87,39 @@ def main():
     # 2) Sidebar: allow user to override interactively
     st.sidebar.header("Run selection")
     default_input = resolved or ""
-    run_dir_input = st.sidebar.text_input("Run folder", value=default_input, help="Path to a run folder containing meta.json")
+    run_dir_input = st.sidebar.text_input(
+        "Run folder",
+        value=default_input,
+        help="Path to a run folder containing meta.json",
+    )
 
     # 3) Show available runs to help users pick
     with st.sidebar.expander("Available runs", expanded=False):
         base = Path("runs")
         if base.exists():
-            for p in sorted([p for p in base.iterdir() if p.is_dir()], key=lambda p: p.stat().st_mtime, reverse=True)[:20]:
+            for p in list_valid_runs(base)[:20]:
                 st.write(str(p))
         else:
             st.write("No 'runs/' directory found.")
 
-    # 4) Validation and friendly error (instead of crashing)
+    # NEW: If nothing typed, offer a selectbox of valid runs (do not stop early)
     if not run_dir_input:
-        st.warning("No run directory provided. Use --run, ?run=, pick the latest, or type a path in the sidebar.")
-        st.stop()
+        runs = list_valid_runs()
+        if runs:
+            # Let user pick one; default to latest
+            sel = st.selectbox(
+                "Pick a run to open",
+                options=[str(p) for p in runs],
+                index=0,
+                help="These are subfolders under ./runs that contain meta.json",
+            )
+            run_dir_input = sel
+        else:
+            st.warning(
+                "No run directory provided and no valid runs found under ./runs.\n\n"
+                "Type a path in the sidebar or launch with `--run`."
+            )
+            st.stop()
 
     run_path = Path(run_dir_input)
     meta_json = run_path / "meta.json"
@@ -107,7 +127,8 @@ def main():
     if not meta_json.exists():
         st.error(f"Run folder not found or invalid: `{run_dir_input}`. Expected file: `{meta_json}`")
         st.info("Tip: Launch with:\n\n"
-                "`streamlit run xaicompare/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb`")
+                "`xaicompare-dash runs/2026-02-18_chapters_xgb`\n"
+                "or type a valid path in the sidebar.")
         st.stop()
 
     # 5) Load artifacts
