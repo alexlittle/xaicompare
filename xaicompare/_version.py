@@ -1,2 +1,2 @@
-# expai_lens/_version.py
+# xaicompare/_version.py
 __version__ = "0.0.1"

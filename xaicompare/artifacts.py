@@ -1,4 +1,4 @@
-# xai_kit/artifacts.py
+# xaicompare/artifacts.py
 import pandas as pd
 from pathlib import Path
 

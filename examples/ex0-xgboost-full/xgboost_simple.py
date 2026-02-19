@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-from expailens.runner import publish_run
+from xaicompare.runner import publish_run
 
 
 df = pd.read_csv('../../data/medsynth/MedSynth_huggingface_final.csv')

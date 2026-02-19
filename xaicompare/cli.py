@@ -8,7 +8,7 @@ app = typer.Typer()
 def report(run_dir: str):
     import os
     os.system(f"streamlit run -q - " + \
-              f"<<'EOF'\nfrom expailens.dashboard.app import main\nmain()\nEOF")
+              f"<<'EOF'\nfrom xaicompare.dashboard.app import main\nmain()\nEOF")
 
 if __name__ == "__main__":
     app()

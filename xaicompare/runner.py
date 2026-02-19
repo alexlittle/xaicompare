@@ -38,7 +38,7 @@ def publish_run(
         "top_k_local": top_k_local,
         "class_names": m.class_names(),
         "feature_count": len(m.feature_names()),
-        "expailens_version": __version__,
+        "xaicompare_version": __version__,
     }
     meta_safe = make_json_safe(meta)
     (run_path / "meta.json").write_text(json.dumps(meta_safe, indent=2))

@@ -1,7 +1,7 @@
 # xai_kit/adapters/model_sklearn.py
 from .model_base import ModelAdapter, ArrayLike
 import numpy as np
-from expailens.registry.model_registry import register_model
+from xaicompare.registry.model_registry import register_model
 
 
 @register_model("sklearn")

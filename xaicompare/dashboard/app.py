@@ -1,4 +1,4 @@
-# expailens/dashboard/app.py
+# xaicompare/dashboard/app.py
 
 from __future__ import annotations
 import json
@@ -30,7 +30,7 @@ def parse_cli_run_arg(default: str | None = None) -> str | None:
     """
     Read --run from sys.argv AFTER the '--' separator that Streamlit uses.
     Example launch:
-        streamlit run expailens/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb
+        streamlit run xaicompare/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb
     """
     if "--" in sys.argv:
         idx = sys.argv.index("--")
@@ -108,14 +108,14 @@ def main():
     if not meta_json.exists():
         st.error(f"Run folder not found or invalid: `{run_dir_input}`. Expected file: `{meta_json}`")
         st.info("Tip: Launch with:\n\n"
-                "`streamlit run expailens/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb`")
+                "`streamlit run xaicompare/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb`")
         st.stop()
 
     # 5) Load artifacts
     meta, preds, global_imp, local, text = load_run(run_dir_input)
 
     # 6) Render
-    st.title("XAI Dashboard")
+    st.title("XAICompare Dashboard")
     st.caption(f"Using run directory: `{run_dir_input}`")
     st.json(meta)
 
