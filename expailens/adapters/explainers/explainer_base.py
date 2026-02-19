@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: MIT
 # Minimal abstract interface for explanation backends (SHAP, LIME, etc.)
 
-from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Iterable, List, Sequence, Tuple, Union, Optional
 

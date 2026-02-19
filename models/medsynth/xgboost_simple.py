@@ -1,17 +1,10 @@
-import seaborn as sns
+import joblib
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 
-from transformers import AutoTokenizer, AutoModel
-from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
 from expailens.runner import publish_run
-import joblib
-from xgboost import XGBClassifier
 
 
 df = pd.read_csv('../../data/medsynth/MedSynth_huggingface_final.csv')

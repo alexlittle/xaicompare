@@ -15,3 +15,6 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+To run the dashboard:
+
+``streamlit run expailens/dashboard/app.py -- --run runs/2026-02-18_chapters_xgb``

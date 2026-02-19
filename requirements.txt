@@ -7,3 +7,5 @@ seaborn
 shap
 matplotlib
 joblib
+pyarrow
+streamlit
