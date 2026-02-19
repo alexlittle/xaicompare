@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "expai_lens"
+name = "xaicompare"
 dynamic = ["version"]
-description = "expai_lens dashboard and utilities"
+description = "xaicompare dashboard and utilities"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
@@ -26,7 +26,7 @@ dependencies = [
 
 
 [project.scripts]
-expai_lens = "expai_lens.cli:run_dashboard"
+xaicompare = "xaicompare.cli:run_dashboard"
 
 
 # Tell setuptools where to find code and how to determine the version
@@ -35,12 +35,12 @@ package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["expai_lens*"]
+include = ["xaicompare*"]
 
 
-# Read version from expai_lens/_version.py
+# Read version from xaicompare/_version.py
 [tool.setuptools.dynamic]
-version = { attr = "expailens._version.__version__" }
+version = { attr = "xaicompare._version.__version__" }
 
 
 
