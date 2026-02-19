@@ -12,7 +12,19 @@ requires-python = ">=3.11"
 authors = [
     { name = "Alex Little", email = "alex@alexlittle.net" }
 ]
-dependencies = []
+
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "numpy",
+    "seaborn",
+    "shap",
+    "matplotlib",
+    "joblib",
+    "pyarrow",
+    "streamlit"
+]
+
 
 
 [project.scripts]
@@ -31,3 +43,12 @@ include = ["expai_lens*"]
 # Read version from expai_lens/_version.py
 [tool.setuptools.dynamic]
 version = { attr = "expailens._version.__version__" }
+
+
+
+[project.optional-dependencies]
+docs = [
+    "Sphinx",
+    "sphinx_rtd_theme",
+]
+
