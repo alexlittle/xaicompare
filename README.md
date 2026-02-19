@@ -4,7 +4,7 @@
 ## 🚀 CI & Code Quality
 
 ### 🧪 Continuous Integration
-[![CI](https://github.com/alexlittle-github/xaicompare/actions/workflows/ci.yml/badge.svg)](https://github.com/alexlittle-github/xaicompare/actions)
+[![CI](https://github.com/alexlittle/xaicompare/actions/workflows/ci.yml/badge.svg)](https://github.com/alexlittle-github/xaicompare/actions)
 
 ### 🔎 SonarCloud — Quality Overview
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=alexlittle-github_xaicompare&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=alexlittle-github_xaicompare)
