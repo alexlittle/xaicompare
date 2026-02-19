@@ -3,13 +3,23 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../..'))
+
+from expailens._version import __version__
+release = __version__
+version = ".".join(__version__.split(".")[:2])
+
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'expai_lens'
 copyright = '2026, Alex Little'
 author = 'Alex Little'
-release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

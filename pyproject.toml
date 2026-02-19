@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "expai_lens"
+dynamic = ["version"]
+description = "expai_lens dashboard and utilities"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Alex Little", email = "alex@alexlittle.net" }
+]
+dependencies = []
+
+
+[project.scripts]
+expai_lens = "expai_lens.cli:run_dashboard"
+
+
+# Tell setuptools where to find code and how to determine the version
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["expai_lens*"]
+
+
+# Read version from expai_lens/_version.py
+[tool.setuptools.dynamic]
+version = { attr = "expailens._version.__version__" }

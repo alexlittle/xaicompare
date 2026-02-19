@@ -77,7 +77,7 @@ publish_run(
     y_test=y_test,                          # optional
     raw_text=X_test,                        # so the dashboard can show the note
     class_names=getattr(pipe.named_steps["xgb"], "classes_", None),
-    run_dir="runs/2026-02-18_chapters_xgb",
+    run_dir="../../runs/2026-02-18_chapters_xgb",
     config={"batch_size": 2,                # tiny batches to avoid OOM
             "rows_limit_global": 200,       # compute global on first 200 rows
             "rows_limit_local": 200}        # store local top-k for first 200 rows
