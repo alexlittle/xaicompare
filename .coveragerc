@@ -1,0 +1,11 @@
+# .coveragerc
+[run]
+branch = True
+source = xaicompare
+relative_files = True
+
+[report]
+omit =
+    tests/*
+    docs/*
+    examples/*
