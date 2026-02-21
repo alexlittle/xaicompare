@@ -24,7 +24,7 @@ def publish_run(
     raw_text: Optional[Sequence] = None,
     class_names: Optional[Sequence[str]] = None,
     run_dir: str = "runs/_latest",
-    config: Optional[Dict[str, Any]] = None,
+    config: Optional[Dict[str, Any]] = {},
     save_model: bool = True,
 
     # registry-driven API
@@ -45,31 +45,15 @@ def publish_run(
     # ------------------------------------------------------------------
     autodiscover_adapters()
 
-    cfg = config or {}
     run_path = pathlib.Path(run_dir)
     run_path.mkdir(parents=True, exist_ok=True)
 
     # Progress configuration (can be overridden via config["progress"])
-    pconf = dict(cfg.get("progress", {}))
-    pb_enabled  = bool(pconf.get("enabled", True))
-    pb_leave    = bool(pconf.get("leave", True))
-    pb_position = int(pconf.get("position", 0))
+    pconf = dict(config.get("progress", {}))
     xai_desc    = str(pconf.get("xai_desc", "Running XAI methods"))
 
     # Helper to optionally wrap iterables with tqdm
-    def pbar(iterable=None, total=None, desc=None):
-        if not pb_enabled:
-            # No progress bar: return iterable directly or a dummy range
-            return iterable if iterable is not None else range(total or 0)
-        return tqdm(
-            iterable=iterable,
-            total=total,
-            desc=desc,
-            leave=pb_leave,
-            position=pb_position,
-            dynamic_ncols=True,
-            mininterval=0.1,
-        )
+
 
     # ------------------------------------------------------------------
     # 1) Wrap model using registry
@@ -80,20 +64,8 @@ def publish_run(
     # ------------------------------------------------------------------
     # 2) Save model + meta
     # ------------------------------------------------------------------
-    if save_model:
-        joblib.dump(model, run_path / "model.joblib")
-
-    meta = {
-        "run_id": str(uuid.uuid4()),
-        "created_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "model_type": model_type,
-        "methods": xai_methods,
-        "top_k_local": top_k_local,
-        "class_names": m.class_names(),
-        "feature_count": len(m.feature_names()),
-        "xaicompare_version": __version__,
-    }
-    (run_path / META_INFO_FILENAME).write_text(json.dumps(make_json_safe(meta), indent=2))
+    save_model_file(save_model, model, run_path)
+    save_meta_file(model_type, xai_methods, top_k_local, m, run_path)
 
     # ------------------------------------------------------------------
     # 3) Predictions (probabilities + top-k)
@@ -127,26 +99,23 @@ def publish_run(
     # 4) XAI explanations — with progress bars
     # ------------------------------------------------------------------
     store = ArtifactStore(run_path)
-    rows_limit_global = int(cfg.get("rows_limit_global", 200))
-    rows_limit_local  = int(cfg.get("rows_limit_local", 200))
+    rows_limit_global = int(config.get("rows_limit_global", 200))
+    rows_limit_local  = int(config.get("rows_limit_local", 200))
 
     # Outer bar over methods
     for mth in pbar(xai_methods, desc=xai_desc):
         Explainer = get_xai_adapter(mth)
-        expl = Explainer(m, cfg)
+        expl = Explainer(m, config)
 
         # ---- Global importance ----
         # Show a one-step indicator (useful when global explainer is heavy)
-        if pb_enabled:
-            gbar = pbar(total=1, desc=f"[{mth}] Global importance")
-        else:
-            gbar = None
+        gbar = pbar(total=1, desc=f"[{mth}] Global importance")
+
 
         mean_abs, feats = expl.global_importance(X_test, rows_limit=rows_limit_global)
 
-        if gbar is not None:
-            gbar.update(1)
-            gbar.close()
+        gbar.update(1)
+        gbar.close()
 
         df_global = (
             pd.DataFrame({"feature": feats, "mean_abs_importance": mean_abs})
@@ -198,3 +167,29 @@ def publish_run(
 def _to_yaml(d):
     import yaml
     return yaml.safe_dump(d, sort_keys=False)
+
+def pbar(iterable=None, total=None, desc=None):
+    return tqdm(
+        iterable=iterable,
+        total=total,
+        desc=desc,
+        dynamic_ncols=True,
+        mininterval=0.1,
+    )
+
+def save_model_file(save_model, model, run_path):
+    if save_model:
+        joblib.dump(model, run_path / "model.joblib")
+
+def save_meta_file(model_type, xai_methods, top_k_local, m, run_path):
+    meta = {
+        "run_id": str(uuid.uuid4()),
+        "created_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "model_type": model_type,
+        "methods": xai_methods,
+        "top_k_local": top_k_local,
+        "class_names": m.class_names(),
+        "feature_count": len(m.feature_names()),
+        "xaicompare_version": __version__,
+    }
+    (run_path / META_INFO_FILENAME).write_text(json.dumps(make_json_safe(meta), indent=2))
