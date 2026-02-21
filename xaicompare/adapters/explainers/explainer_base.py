@@ -51,7 +51,7 @@ class ExplainerAdapter(ABC):
     @abstractmethod
     def global_importance(
         self,
-        X: ArrayLike,
+        x: ArrayLike,
         rows_limit: int = 200,
     ) -> Tuple[np.ndarray, List[str]]:
         """
@@ -68,7 +68,7 @@ class ExplainerAdapter(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def local_explanations(self, X_row: ArrayLike) -> np.ndarray:
+    def local_explanations(self, x_row: ArrayLike) -> np.ndarray:
         """
         Explain a single row. Should return a vector of signed contributions whose length
         matches the feature space (n_features).
@@ -87,15 +87,15 @@ class ExplainerAdapter(ABC):
         return self.__class__.__name__
 
     @staticmethod
-    def ensure_2d(X: ArrayLike) -> ArrayLike:
+    def ensure_2d(x: ArrayLike) -> ArrayLike:
         """
         Ensure that X has a leading sample dimension where possible.
         If X is a single sample 1D array, reshape to (1, n_features).
         No-op for sparse matrices/slices that already have a leading dimension.
         """
-        if isinstance(X, np.ndarray) and X.ndim == 1:
-            return X.reshape(1, -1)
-        return X
+        if isinstance(x, np.ndarray) and x.ndim == 1:
+            return x.reshape(1, -1)
+        return x
 
     @staticmethod
     def to_top_k(
@@ -161,6 +161,6 @@ class NoOpExplainerAdapter(ExplainerAdapter):
         mean_abs = np.zeros(len(feats), dtype=np.float64)
         return mean_abs, list(feats)
 
-    def local_explanations(self, X_row: ArrayLike) -> np.ndarray:
+    def local_explanations(self, x_row: ArrayLike) -> np.ndarray:
         feats = self.m.feature_names() if hasattr(self.m, "feature_names") else []
         return np.zeros(len(feats), dtype=np.float64)

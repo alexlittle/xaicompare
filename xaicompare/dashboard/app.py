@@ -72,15 +72,10 @@ def load_run(run_dir: str) -> Tuple[dict, pd.DataFrame, pd.DataFrame, pd.DataFra
     text = pd.read_parquet(p / "text_index.parquet")
     return meta, preds, global_imp, local, text
 
-# ---------- Main ----------
+
 def main():
     st.set_page_config(layout="wide", page_title="XAICompare Dashboard")
 
-    # 1) Resolve run_dir in this order:
-    #    a) CLI arg --run (recommended)
-    #    b) Query param ?run=...
-    #    c) Latest detected run under runs/
-    #    d) fallback "runs/_latest" (if present)
     cli_run = parse_cli_run_arg()
     url_run = get_run_from_query_params()
     latest = find_latest_run()
@@ -106,7 +101,6 @@ def main():
         else:
             st.write("No 'runs/' directory found.")
 
-    # NEW: If nothing typed, offer a selectbox of valid runs (do not stop early)
     if not run_dir_input:
         runs = list_valid_runs()
         if runs:
@@ -144,8 +138,8 @@ def main():
     st.json(meta)
 
     st.header("Global token importance")
-    topN = st.sidebar.slider("Top-N", 10, 200, 20, 5)
-    st.dataframe(global_imp.sort_values("mean_abs_importance", ascending=False).head(topN))
+    top_n = st.sidebar.slider("Top-N", 10, 200, 20, 5)
+    st.dataframe(global_imp.sort_values("mean_abs_importance", ascending=False).head(top_n))
 
     st.header("Local explanation")
 
@@ -166,10 +160,10 @@ def main():
     if row_local.empty or "value" not in row_local.columns:
         st.info("No local explanation values available for this sample.")
     else:
-        topN_local = st.sidebar.slider(
+        top_n_local = st.sidebar.slider(
             "Top-N (local)", min_value=5, max_value=100, value=min(20, len(row_local)), step=5
         )
-        st.bar_chart(row_local.head(topN_local).set_index("feature")["value"])
+        st.bar_chart(row_local.head(top_n_local).set_index("feature")["value"])
 
 
 if __name__ == "__main__":
