@@ -9,8 +9,7 @@ ArrayLike = Union[np.ndarray, spmatrix, list]
 class ModelAdapter:
 
     def __init__(self, model, class_names: Optional[Sequence[str]] = None):
-        # Standardize common attributes
-        self.model = model  # <--- ensure this exists
+        self.model = model
         self._class_names = (
             list(class_names) if class_names is not None else None
         )

@@ -1,4 +1,4 @@
-# xai_kit/runner.py
+# xaicompare/runner.py
 from typing import Optional, Dict, Any, Sequence, List
 import numpy as np
 import pandas as pd
@@ -15,6 +15,7 @@ from xaicompare.registry.model_registry import get_model_adapter
 from xaicompare.registry.xai_registry import get_xai_adapter
 from xaicompare.registry.autodiscover import autodiscover_adapters
 
+from xaicompare.consts import META_INFO_FILENAME
 
 def publish_run(
     model,
@@ -73,8 +74,8 @@ def publish_run(
     # ------------------------------------------------------------------
     # 1) Wrap model using registry
     # ------------------------------------------------------------------
-    Adapter = get_model_adapter(model_type)
-    m = Adapter(model, class_names=class_names)
+    model_adapter = get_model_adapter(model_type) #noqa
+    m = model_adapter(model, class_names=class_names)
 
     # ------------------------------------------------------------------
     # 2) Save model + meta
@@ -92,7 +93,7 @@ def publish_run(
         "feature_count": len(m.feature_names()),
         "xaicompare_version": __version__,
     }
-    (run_path / "meta.json").write_text(json.dumps(make_json_safe(meta), indent=2))
+    (run_path / META_INFO_FILENAME).write_text(json.dumps(make_json_safe(meta), indent=2))
 
     # ------------------------------------------------------------------
     # 3) Predictions (probabilities + top-k)

@@ -1,12 +1,15 @@
 # xaicompare/dashboard/app.py
+import pandas as pd
+import streamlit as st
+
 from __future__ import annotations
 import json
 import sys
 from pathlib import Path
 from typing import Tuple, List
 
-import pandas as pd
-import streamlit as st
+from xaicompare.consts import META_INFO_FILENAME
+
 
 # ---------- Helpers ----------
 def find_latest_run(base: Path = Path("runs")) -> Path | None:
@@ -15,7 +18,7 @@ def find_latest_run(base: Path = Path("runs")) -> Path | None:
         return None
     candidates = []
     for p in base.iterdir():
-        if p.is_dir() and (p / "meta.json").exists():
+        if p.is_dir() and (p / META_INFO_FILENAME).exists():
             candidates.append((p, p.stat().st_mtime))
     if not candidates:
         return None
@@ -26,7 +29,7 @@ def list_valid_runs(base: Path = Path("runs")) -> List[Path]:
     runs: List[Path] = []
     if base.exists():
         for p in base.iterdir():
-            if p.is_dir() and (p / "meta.json").exists():
+            if p.is_dir() and (p / META_INFO_FILENAME).exists():
                 runs.append(p)
     runs.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     return runs
@@ -61,7 +64,7 @@ def get_run_from_query_params() -> str | None:
 
 def load_run(run_dir: str) -> Tuple[dict, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     p = Path(run_dir)
-    meta = json.loads((p / "meta.json").read_text())
+    meta = json.loads((p / META_INFO_FILENAME).read_text())
     preds = pd.read_parquet(p / "predictions.parquet")
     global_imp = pd.read_parquet(p / "shap_tree_global.parquet")
     local = pd.read_parquet(p / "shap_tree_local.parquet")
@@ -70,7 +73,7 @@ def load_run(run_dir: str) -> Tuple[dict, pd.DataFrame, pd.DataFrame, pd.DataFra
 
 # ---------- Main ----------
 def main():
-    st.set_page_config(layout="wide", page_title="XAI Dashboard")
+    st.set_page_config(layout="wide", page_title="XAICompare Dashboard")
 
     # 1) Resolve run_dir in this order:
     #    a) CLI arg --run (recommended)
@@ -80,7 +83,7 @@ def main():
     cli_run = parse_cli_run_arg()
     url_run = get_run_from_query_params()
     latest = find_latest_run()
-    fallback = Path("runs/_latest") if (Path("runs/_latest") / "meta.json").exists() else None
+    fallback = Path("runs/_latest") if (Path("runs/_latest") / META_INFO_FILENAME).exists() else None
 
     resolved = cli_run or url_run or (str(latest) if latest else None) or (str(fallback) if fallback else None)
 
@@ -122,7 +125,7 @@ def main():
             st.stop()
 
     run_path = Path(run_dir_input)
-    meta_json = run_path / "meta.json"
+    meta_json = run_path / META_INFO_FILENAME
 
     if not meta_json.exists():
         st.error(f"Run folder not found or invalid: `{run_dir_input}`. Expected file: `{meta_json}`")
