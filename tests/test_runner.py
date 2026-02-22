@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 import pathlib
 
-# Import the module under test
-from xaicompare import runner
+import xaicompare.runner as runner_mod
+from xaicompare.runner import XAICompareRunner
 
 
 # -----------------------------
@@ -115,20 +115,20 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
     def fake_autodiscover():
         autodiscover_calls["n"] += 1
 
-    monkeypatch.setattr(runner, "autodiscover_adapters", fake_autodiscover)
-    monkeypatch.setattr(runner, "ArtifactStore", FakeArtifactStore)
-    monkeypatch.setattr(runner, "make_json_safe", lambda x: x)
-    monkeypatch.setattr(runner, "__version__", "0.0.0-test")
+    monkeypatch.setattr(runner_mod, "autodiscover_adapters", fake_autodiscover)
+    monkeypatch.setattr(runner_mod, "ArtifactStore", FakeArtifactStore)
+    monkeypatch.setattr(runner_mod, "make_json_safe", lambda x: x)
+    monkeypatch.setattr(runner_mod, "__version__", "0.0.0-test")
 
     # Provide model + XAI registry returns
-    monkeypatch.setattr(runner, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
-    monkeypatch.setattr(runner, "get_xai_adapter", lambda name: FakeXAIAdapter)
+    monkeypatch.setattr(runner_mod, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
+    monkeypatch.setattr(runner_mod, "get_xai_adapter", lambda name: FakeXAIAdapter)
 
     # Avoid writing a real joblib file (but still verify call in a different test)
     save_calls = []
     def fake_dump(model, path):
         save_calls.append(path)
-    monkeypatch.setattr(runner.joblib, "dump", fake_dump)
+    monkeypatch.setattr(runner_mod.joblib, "dump", fake_dump)
 
     # Inputs
     X = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
@@ -143,7 +143,7 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
     }
 
     # Act
-    runner.publish_run(
+    runner = XAICompareRunner(
         model=object(),
         X_test=X,
         y_test=y,
@@ -156,6 +156,7 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
         xai_methods=["fake_xai"],
         top_k_local=15,
     )
+    runner.run()
 
     # Assert: autodiscover was called once
     assert autodiscover_calls["n"] == 1
@@ -223,23 +224,23 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
 
 def test_publish_run_without_proba_drops_proba_column(tmp_path, monkeypatch):
     # Patch externals
-    monkeypatch.setattr(runner, "autodiscover_adapters", lambda: None)
-    monkeypatch.setattr(runner, "ArtifactStore", FakeArtifactStore)
-    monkeypatch.setattr(runner, "make_json_safe", lambda x: x)
-    monkeypatch.setattr(runner, "__version__", "0.0.0-test")
+    monkeypatch.setattr(runner_mod, "autodiscover_adapters", lambda: None)
+    monkeypatch.setattr(runner_mod, "ArtifactStore", FakeArtifactStore)
+    monkeypatch.setattr(runner_mod, "make_json_safe", lambda x: x)
+    monkeypatch.setattr(runner_mod, "__version__", "0.0.0-test")
 
     # No proba adapter
-    monkeypatch.setattr(runner, "get_model_adapter", lambda model_type: FakeModelAdapterNoProba)
-    monkeypatch.setattr(runner, "get_xai_adapter", lambda name: FakeXAIAdapter)
+    monkeypatch.setattr(runner_mod, "get_model_adapter", lambda model_type: FakeModelAdapterNoProba)
+    monkeypatch.setattr(runner_mod, "get_xai_adapter", lambda name: FakeXAIAdapter)
 
     # Avoid real joblib writes
-    monkeypatch.setattr(runner.joblib, "dump", lambda model, path: None)
+    monkeypatch.setattr(runner_mod.joblib, "dump", lambda model, path: None)
 
     X = np.array([[1, 2], [3, 4]], dtype=float)
     run_dir = tmp_path / "run_noproba"
     config = {"progress": {"enabled": False}}
 
-    runner.publish_run(
+    runner = XAICompareRunner(
         model=object(),
         X_test=X,
         y_test=None,
@@ -252,6 +253,7 @@ def test_publish_run_without_proba_drops_proba_column(tmp_path, monkeypatch):
         xai_methods=["fake_xai"],
         top_k_local=5,
     )
+    runner.run()
 
     preds_path = run_dir / "predictions.parquet"
     assert preds_path.exists()
@@ -264,17 +266,17 @@ def test_publish_run_without_proba_drops_proba_column(tmp_path, monkeypatch):
 
 def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
     # Patch externals
-    monkeypatch.setattr(runner, "autodiscover_adapters", lambda: None)
-    monkeypatch.setattr(runner, "ArtifactStore", FakeArtifactStore)
-    monkeypatch.setattr(runner, "make_json_safe", lambda x: x)
-    monkeypatch.setattr(runner, "__version__", "0.0.0-test")
+    monkeypatch.setattr(runner_mod, "autodiscover_adapters", lambda: None)
+    monkeypatch.setattr(runner_mod, "ArtifactStore", FakeArtifactStore)
+    monkeypatch.setattr(runner_mod, "make_json_safe", lambda x: x)
+    monkeypatch.setattr(runner_mod, "__version__", "0.0.0-test")
 
     # Use proba adapter (doesn't matter for local) + top-1 local xai adapter
-    monkeypatch.setattr(runner, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
-    monkeypatch.setattr(runner, "get_xai_adapter", lambda name: FakeXAIAdapterTop1)
+    monkeypatch.setattr(runner_mod, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
+    monkeypatch.setattr(runner_mod, "get_xai_adapter", lambda name: FakeXAIAdapterTop1)
 
     # Avoid real joblib writes
-    monkeypatch.setattr(runner.joblib, "dump", lambda model, path: None)
+    monkeypatch.setattr(runner_mod.joblib, "dump", lambda model, path: None)
 
     X = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
     run_dir = tmp_path / "run_limits"
@@ -283,7 +285,7 @@ def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
         "rows_limit_local": 1,  # Only explain first sample
     }
 
-    runner.publish_run(
+    runner = XAICompareRunner(
         model=object(),
         X_test=X,
         y_test=None,
@@ -294,8 +296,9 @@ def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
         save_model=False,
         model_type="sklearn",
         xai_methods=["fake_xai"],
-        top_k_local=1,  # Only the single top feature per explained row
+        top_k_local=1,
     )
+    runner.run()
 
     local_path = run_dir / "fake_xai_local.parquet"
     assert local_path.exists()
@@ -309,24 +312,24 @@ def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
 
 def test_publish_run_does_not_save_model_when_flag_false(tmp_path, monkeypatch):
     # Patch externals
-    monkeypatch.setattr(runner, "autodiscover_adapters", lambda: None)
-    monkeypatch.setattr(runner, "ArtifactStore", FakeArtifactStore)
-    monkeypatch.setattr(runner, "make_json_safe", lambda x: x)
-    monkeypatch.setattr(runner, "__version__", "0.0.0-test")
-    monkeypatch.setattr(runner, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
-    monkeypatch.setattr(runner, "get_xai_adapter", lambda name: FakeXAIAdapter)
+    monkeypatch.setattr(runner_mod, "autodiscover_adapters", lambda: None)
+    monkeypatch.setattr(runner_mod, "ArtifactStore", FakeArtifactStore)
+    monkeypatch.setattr(runner_mod, "make_json_safe", lambda x: x)
+    monkeypatch.setattr(runner_mod, "__version__", "0.0.0-test")
+    monkeypatch.setattr(runner_mod, "get_model_adapter", lambda model_type: FakeModelAdapterProba)
+    monkeypatch.setattr(runner_mod, "get_xai_adapter", lambda name: FakeXAIAdapter)
 
     # Spy on joblib.dump
     calls = {"n": 0}
     def fake_dump(model, path):
         calls["n"] += 1
-    monkeypatch.setattr(runner.joblib, "dump", fake_dump)
+    monkeypatch.setattr(runner_mod.joblib, "dump", fake_dump)
 
     X = np.array([[0, 1]], dtype=float)
     run_dir = tmp_path / "run_no_save"
     config = {"progress": {"enabled": False}}
 
-    runner.publish_run(
+    runner = XAICompareRunner(
         model=object(),
         X_test=X,
         y_test=None,
@@ -339,5 +342,7 @@ def test_publish_run_does_not_save_model_when_flag_false(tmp_path, monkeypatch):
         xai_methods=["fake_xai"],
         top_k_local=5,
     )
+    runner.run()
+
 
     assert calls["n"] == 0, "joblib.dump should not be called when save_model=False"
