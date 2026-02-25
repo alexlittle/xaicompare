@@ -48,7 +48,7 @@ class XAICompareRunner:
     def __init__(
         self,
         model,
-        X_test,
+        x_test,
         y_test: Optional[Sequence] = None,
         raw_text: Optional[Sequence] = None,
         class_names: Optional[Sequence[str]] = None,
@@ -65,7 +65,7 @@ class XAICompareRunner:
         # Inputs and configuration
         # -----------------------------
         self.model = model
-        self.X_test = X_test
+        self.x_test = x_test
         self.y_test = y_test
         self.raw_text = raw_text
         self.user_class_names = class_names
@@ -95,7 +95,10 @@ class XAICompareRunner:
     # Public API
     # -----------------------------
     def run(self):
-        """Main entry point: orchestrates the publish run end-to-end."""
+        '''
+        Main entry point
+        :return:
+        '''
         self._ensure_registry()
         self._prepare_run_dir()
         self._wrap_model()
@@ -109,7 +112,6 @@ class XAICompareRunner:
         self._write_common_artifacts()
         self._write_config_if_present()
 
-        # Optionally return a small summary for programmatic use
         return {
             "run_dir": str(self.run_path),
             "methods": list(self.xai_methods),
