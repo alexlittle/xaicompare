@@ -31,7 +31,7 @@ class XAICompareRunner:
     Usage:
         runner = XAICompareRunner(
             model=my_model,
-            X_test=X_test,
+            x_test=x_test,
             y_test=y_test,
             raw_text=texts,
             class_names=class_names,
@@ -152,8 +152,8 @@ class XAICompareRunner:
         )
 
     def _compute_predictions(self):
-        y_pred = self.m.predict(self.X_test)
-        proba = self.m.predict_proba(self.X_test)
+        y_pred = self.m.predict(self.x_test)
+        proba = self.m.predict_proba(self.x_test)
 
         df_pred = pd.DataFrame({
             "sample_id": np.arange(len(y_pred)),
@@ -189,7 +189,7 @@ class XAICompareRunner:
             # Global importance
             gbar = self._pbar(total=1, desc=f"[{mth}] Global importance")
             mean_abs, feats = expl.global_importance(
-                self.X_test, rows_limit=self.rows_limit_global
+                self.x_test, rows_limit=self.rows_limit_global
             )
             gbar.update(1)
             gbar.close()
@@ -206,7 +206,7 @@ class XAICompareRunner:
 
             local_iter = self._pbar(range(k), desc=f"[{mth}] Local explanations")
             for i in local_iter:
-                vals = expl.local_explanations(self.X_test[i:i+1])  # signed vector
+                vals = expl.local_explanations(self.x_test[i:i+1])  # signed vector
                 idx = np.argsort(np.abs(vals))[-self.top_k_local:][::-1]
                 for j in idx:
                     records.append({
@@ -223,7 +223,7 @@ class XAICompareRunner:
         self,
     ):
         self.df_text = self.m.build_text_index(
-            X_test=self.X_test,
+            x_test=self.x_test,
             y_test=self.y_test,
             raw_text=self.raw_text,
             class_names=self.user_class_names,

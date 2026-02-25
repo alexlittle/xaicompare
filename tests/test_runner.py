@@ -54,8 +54,8 @@ class FakeModelAdapterProba:
             proba[i] = proba[i] / proba[i].sum()
         return proba
 
-    def build_text_index(self, X_test, y_test=None, raw_text=None, class_names=None):
-        n = len(X_test)
+    def build_text_index(self, x_test, y_test=None, raw_text=None, class_names=None):
+        n = len(x_test)
         df = pd.DataFrame({"sample_id": np.arange(n)})
         if y_test is not None:
             df["y_true"] = list(y_test)
@@ -75,7 +75,7 @@ class FakeXAIAdapter:
         self.m = model_adapter
         self.cfg = cfg
 
-    def global_importance(self, X, rows_limit=200):
+    def global_importance(self, x, rows_limit=200):
         feats = self.m.feature_names()
         # Make f1 more important than f0 to test sorting
         mean_abs = np.array([0.4, 0.6], dtype=float)
@@ -131,7 +131,7 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
     monkeypatch.setattr(runner_mod.joblib, "dump", fake_dump)
 
     # Inputs
-    X = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+    x = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
     y = [0, 1, 2]
     raw = ["t0", "t1", "t2"]
     run_dir = tmp_path / "runs" / "latest"
@@ -145,7 +145,7 @@ def test_publish_run_with_proba_creates_expected_artifacts(tmp_path, monkeypatch
     # Act
     runner = XAICompareRunner(
         model=object(),
-        X_test=X,
+        x_test=x,
         y_test=y,
         raw_text=raw,
         class_names=["A", "B", "C"],
@@ -236,13 +236,13 @@ def test_publish_run_without_proba_drops_proba_column(tmp_path, monkeypatch):
     # Avoid real joblib writes
     monkeypatch.setattr(runner_mod.joblib, "dump", lambda model, path: None)
 
-    X = np.array([[1, 2], [3, 4]], dtype=float)
+    x = np.array([[1, 2], [3, 4]], dtype=float)
     run_dir = tmp_path / "run_noproba"
     config = {"progress": {"enabled": False}}
 
     runner = XAICompareRunner(
         model=object(),
-        X_test=X,
+        x_test=x,
         y_test=None,
         raw_text=None,
         class_names=["A", "B", "C"],
@@ -278,7 +278,7 @@ def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
     # Avoid real joblib writes
     monkeypatch.setattr(runner_mod.joblib, "dump", lambda model, path: None)
 
-    X = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+    x = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
     run_dir = tmp_path / "run_limits"
     config = {
         "progress": {"enabled": False},
@@ -287,7 +287,7 @@ def test_publish_run_respects_top_k_and_row_limits(tmp_path, monkeypatch):
 
     runner = XAICompareRunner(
         model=object(),
-        X_test=X,
+        x_test=x,
         y_test=None,
         raw_text=None,
         class_names=["A", "B", "C"],
@@ -325,13 +325,13 @@ def test_publish_run_does_not_save_model_when_flag_false(tmp_path, monkeypatch):
         calls["n"] += 1
     monkeypatch.setattr(runner_mod.joblib, "dump", fake_dump)
 
-    X = np.array([[0, 1]], dtype=float)
+    x = np.array([[0, 1]], dtype=float)
     run_dir = tmp_path / "run_no_save"
     config = {"progress": {"enabled": False}}
 
     runner = XAICompareRunner(
         model=object(),
-        X_test=X,
+        x_test=x,
         y_test=None,
         raw_text=None,
         class_names=["A", "B", "C"],

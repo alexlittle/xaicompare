@@ -1,6 +1,6 @@
 VIZ_REGISTRY = {}
 
-def register_model(key):
+def register_viz(key):
     """
     Decorator to register a viz adapter by key.
     """
@@ -9,7 +9,7 @@ def register_model(key):
         return cls
     return wrapper
 
-def get_model_adapter(key):
+def get_viz_adapter(key):
     if key not in VIZ_REGISTRY:
         raise ValueError(f"Viz adapter '{key}' not registered.")
     return VIZ_REGISTRY[key]
