@@ -210,6 +210,6 @@ __marimo__/
 *.sqlite3
 /expai_lens_logs/
 /runs/*
-/examples/ex0-xgboost-full/tfidf_xgb_pipeline.joblib
 
-/examples/data/MedSynth_huggingface_final.csv
+/examples/data/*.csv
+/examples/models/*.joblib

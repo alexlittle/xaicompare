@@ -11,7 +11,7 @@ To run these examples some extra packages will need to be installed. To install 
 Example 1: XGBoost Model on MedSynth
 ---------------------------------------
 
-In:  ``/examples/ex1-xgboost-short/``
+In:  ``/examples/ex1_xgboost_small.ipynb``
 
 
 
