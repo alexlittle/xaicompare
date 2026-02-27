@@ -2,7 +2,7 @@ pandas
 Sphinx
 sphinx_rtd_theme
 scikit-learn
-numpy==2.4.2
+numpy
 seaborn
 shap
 matplotlib
