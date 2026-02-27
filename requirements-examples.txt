@@ -1,1 +1,2 @@
 # Additional requirements for running the examples
+ollama
