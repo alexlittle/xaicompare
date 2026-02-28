@@ -122,6 +122,13 @@ def extract_vitalsigns_tocols(df):
     return df
 
 
+def remove_doctors_dialogue(df: pd.DataFrame):
+    df['patient_only'] = df['Dialogue'].apply(
+        lambda x: " ".join(re.findall(r'\[patient\](.*?)(?=\[doctor\]|\Z)', x, flags=re.S))
+    )
+    return df
+
+
 def download_file_if_needed(
     url: str,
     dest_path: Union[str, Path],

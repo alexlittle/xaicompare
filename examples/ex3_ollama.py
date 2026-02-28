@@ -11,7 +11,7 @@ df_ms = helpers.process_medsynth()
 df = helpers.extract_vitalsigns_tocols(df_ms)
 
 # %%
-MODEL = "gemma3"
+MODEL = "gemma3:latest"
 
 def ollama_predict(prompt, model=MODEL):
     response = ollama.generate(model=model, prompt=prompt)
