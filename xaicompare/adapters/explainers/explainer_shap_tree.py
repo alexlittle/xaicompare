@@ -19,6 +19,9 @@ class ShapTreeExplainerAdapter(ExplainerAdapter):
       - Multi-class normalization
     """
 
+    def limitation_text(self):
+        return "This is some test text about the limitations of the SHAP Tree Explainer."
+
     def __init__(self, model_adapter, config: Dict[str, Any]):
         super().__init__(model_adapter, config)
 

@@ -5,7 +5,7 @@ import re
 import numpy as np
 from pathlib import Path
 from tqdm import tqdm
-from typing import Union, Optional
+from typing import Union
 
 
 _ICD10_CHAPTERS = {

@@ -14,14 +14,14 @@ authors = [
 ]
 
 dependencies = [
-    "pandas",
-    "scikit-learn",
+    "pandas==2.3.3",
+    "scikit-learn==1.8.0",
     "numpy==2.4.2",
-    "shap",
-    "joblib",
-    "pyarrow",
-    "streamlit",
-    "PyYAML>=6.0",
+    "shap==0.50.0",
+    "joblib==1.5.3",
+    "pyarrow==23.0.1",
+    "streamlit==1.54.0",
+    "PyYAML==6.0.3",
 ]
 
 
@@ -45,14 +45,17 @@ version = { attr = "xaicompare._version.__version__" }
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
+    "pytest==9.0.2",
+    "twine==6.2.0",
+    "build==1.4.0",
+    "wheel==0.46.3"
 ]
 docs = [
-    "Sphinx",
-    "sphinx_rtd_theme",
+    "Sphinx==9.1.0",
+    "sphinx_rtd_theme==3.1.0",
 ]
 examples = [
-    "seaborn",
-    "matplotlib",
+    "seaborn==0.13.2",
+    "matplotlib==3.10.8",
 ]
 

@@ -3,13 +3,9 @@
 import argparse
 import sys
 from pathlib import Path
+from streamlit.web import cli as stcli
 
 def main():
-    # Try Streamlit CLI import across versions
-    try:
-        from streamlit.web import cli as stcli  # modern
-    except Exception:  # pragma: no cover
-        import streamlit.cli as stcli  # older
 
     # Resolve path to your app.py inside the installed package
     app_py = Path(__file__).resolve().parent / "dashboard" / "app.py"

@@ -1,5 +1,5 @@
 # xaicompare/adapters/explainer_base.py
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: GNU
 # Minimal abstract interface for explanation backends (SHAP, LIME, etc.)
 
 from abc import ABC, abstractmethod
@@ -49,11 +49,11 @@ class ExplainerAdapter(ABC):
     # ---------- Required API ----------
 
     @abstractmethod
-    def global_importance(
-        self,
-        x: ArrayLike,
-        rows_limit: int = 200,
-    ) -> Tuple[np.ndarray, List[str]]:
+    def limitation_text(self) -> str:
+        raise NotImplementedError
+
+    @abstractmethod
+    def global_importance(self, x: ArrayLike, rows_limit: int = 200,) -> Tuple[np.ndarray, List[str]]:
         """
         Compute a global importance estimate (typically mean |contribution|) in a
         memory-safe way across up to `rows_limit` rows of X.
@@ -148,7 +148,7 @@ class ExplainerAdapter(ABC):
 # -------------------------
 class NoOpExplainerAdapter(ExplainerAdapter):
     """
-    A placeholder explainer for smoke tests.
+    A placeholder explainer for  tests.
     It returns zeros for global and local importance with correct shapes.
     """
 
